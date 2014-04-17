@@ -52,12 +52,12 @@ class Utility(object):
 		previousTime = 0
 		currentTime = 0
 		prevC = {}
-
-		
+		#Tracks the servers under each agents control
 		sCount = {
 		'DEF':0,
 		'ATT':0
 		}
+		#Tracks the previous controller of each server
 		prevC['Server0'] = 'DEF'
 		prevC['Server1'] = 'DEF'
 		prevC['Server2'] = 'DEF'
@@ -70,6 +70,7 @@ class Utility(object):
 			hist = it[1]
 			currentTime = time
 			timeFactor = currentTime - previousTime
+			pTime = previousTime
 			previousTime = currentTime
 			#Might need to correct this
 			# for res, rep in hist['inactiveResources'].iteritems():
@@ -82,12 +83,16 @@ class Utility(object):
 			# 	prevC[res] = rep['Control']
 			for k,v in sCount.iteritems():
 				# print k,v, time
-				# print "Do " + str(timeFactor) + "*" +str((controlPayoffs[k])[v])
+				# print "Do [" + str(currentTime) + "-" + str(pTime) + "] " + "*" +str((controlPayoffs[k])[v])
 				# print ']]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]\n'
+				#Accrues utility for time period (t-1) to t
 				self.params[k] += timeFactor*(controlPayoffs[k])[v]
 				sCount[k] = 0
 			# print self.params
+			#Count servers for each agent at time t
 			for res, rep in hist['activeResources'].iteritems():
+				sCount[rep['Control']] += 1
+			for res, rep in hist['inactiveResources'].iteritems():
 				sCount[rep['Control']] += 1
 
 

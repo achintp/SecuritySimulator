@@ -10,7 +10,7 @@
 	},
 
 	"configuration":{
-		"endTime": "10000",
+		"endTime": "100",
 		"dtCost": "0.3",
 		"prCost": "0.2",
 		"DEF": "0,0.1,0.7,1.0",

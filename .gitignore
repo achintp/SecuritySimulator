@@ -2,6 +2,10 @@
 __pycache__/
 *.py[cod]
 
+# Debug Result files
+*.dout
+
+
 # C extensions
 *.so
 
