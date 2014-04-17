@@ -1,0 +1,284 @@
+Simulator set up. The resources are 
+ServerA
+ServerB
+ServerC
+
+The players are A and D
+Simulator set up. The resources are 
+ServerA
+ServerB
+ServerC
+
+The players are A and D
+Simulator successfully created
+['ServerA', 'ServerB', 'ServerC']
+Testing updateInformation------------------------------
+
+
+Simulator set up. The resources are 
+ServerA
+ServerB
+ServerC
+
+The players are A and D
+Random server is ServerC
+-----------------------------------------------------------
+The events queue is
+At time 2 A will probe ServerC
+At time 4 D will reimage ServerC
+At time 30 Game will end.
+ The time is: 2
+
+A is probing and attacking ServerC
+Random server is ServerC
+-----------------------------------------------------------
+The events queue is
+At time 4 D will reimage ServerC
+At time 4 A will probe ServerC
+At time 30 Game will end.
+ The time is: 4
+
+D is reimaging ServerC
+Reimaging--------------------ServerC
+
+{'Status': 'DOWN', 'Control': 'DEF', 'Name': 'ServerC', 'Probes till now': 0, 'Reimage Count': 1, 'Total Downtime': 0, 'Probability of Compromise': 0}
+ServerC is DOWN. Will be up again at 9
+
+
+Random server is ServerA
+-----------------------------------------------------------
+The events queue is
+At time 6 A will probe ServerA
+At time 8 D will reimage ServerB
+At time 9 ServerC will reactivate.
+At time 30 Game will end.
+ The time is: 6
+
+A is probing and attacking ServerA
+Random server is ServerB
+-----------------------------------------------------------
+The events queue is
+At time 8 A will probe ServerA
+At time 8 D will reimage ServerB
+At time 9 ServerC will reactivate.
+At time 30 Game will end.
+ The time is: 8
+
+A is probing and attacking ServerA
+Random server is ServerB
+-----------------------------------------------------------
+The events queue is
+At time 8 D will reimage ServerB
+At time 9 ServerC will reactivate.
+At time 10 A will probe ServerA
+At time 30 Game will end.
+ The time is: 8
+
+D is reimaging ServerB
+Reimaging--------------------ServerB
+
+{'Status': 'DOWN', 'Control': 'DEF', 'Name': 'ServerB', 'Probes till now': 0, 'Reimage Count': 1, 'Total Downtime': 0, 'Probability of Compromise': 0}
+ServerB is DOWN. Will be up again at 13
+
+
+Random server is ServerA
+-----------------------------------------------------------
+The events queue is
+At time 9 ServerC will reactivate.
+At time 10 A will probe ServerA
+At time 12 D will reimage ServerA
+At time 13 ServerB will reactivate.
+At time 30 Game will end.
+ The time is: 9
+
+ServerC is up and running again
+Random server is ServerA
+-----------------------------------------------------------
+The events queue is
+At time 11 A will probe ServerC
+At time 12 D will reimage ServerA
+At time 13 ServerB will reactivate.
+At time 30 Game will end.
+ The time is: 11
+
+A is probing and attacking ServerC
+Random server is ServerC
+-----------------------------------------------------------
+The events queue is
+At time 12 D will reimage ServerA
+At time 13 ServerB will reactivate.
+At time 13 A will probe ServerA
+At time 30 Game will end.
+ The time is: 12
+
+D is reimaging ServerA
+Reimaging--------------------ServerA
+
+{'Status': 'DOWN', 'Control': 'DEF', 'Name': 'ServerA', 'Probes till now': 0, 'Reimage Count': 1, 'Total Downtime': 0, 'Probability of Compromise': 0}
+ServerA is DOWN. Will be up again at 17
+
+
+Random server is ServerC
+-----------------------------------------------------------
+The events queue is
+At time 13 ServerB will reactivate.
+At time 14 A will probe ServerC
+At time 16 D will reimage ServerC
+At time 17 ServerA will reactivate.
+At time 30 Game will end.
+ The time is: 13
+
+ServerB is up and running again
+Random server is ServerC
+-----------------------------------------------------------
+The events queue is
+At time 15 A will probe ServerC
+At time 16 D will reimage ServerC
+At time 17 ServerA will reactivate.
+At time 30 Game will end.
+ The time is: 15
+
+A is probing and attacking ServerC
+Random server is ServerB
+-----------------------------------------------------------
+The events queue is
+At time 16 D will reimage ServerC
+At time 17 ServerA will reactivate.
+At time 17 A will probe ServerB
+At time 30 Game will end.
+ The time is: 16
+
+D is reimaging ServerC
+Reimaging--------------------ServerC
+
+{'Status': 'DOWN', 'Control': 'DEF', 'Name': 'ServerC', 'Probes till now': 0, 'Reimage Count': 2, 'Total Downtime': 0, 'Probability of Compromise': 0}
+ServerC is DOWN. Will be up again at 21
+
+
+Random server is ServerB
+-----------------------------------------------------------
+The events queue is
+At time 17 ServerA will reactivate.
+At time 18 A will probe ServerB
+At time 20 D will reimage ServerB
+At time 21 ServerC will reactivate.
+At time 30 Game will end.
+ The time is: 17
+
+ServerA is up and running again
+Random server is ServerB
+-----------------------------------------------------------
+The events queue is
+At time 19 A will probe ServerB
+At time 20 D will reimage ServerB
+At time 21 ServerC will reactivate.
+At time 30 Game will end.
+ The time is: 19
+
+A is probing and attacking ServerB
+Random server is ServerB
+-----------------------------------------------------------
+The events queue is
+At time 20 D will reimage ServerB
+At time 21 ServerC will reactivate.
+At time 21 A will probe ServerB
+At time 30 Game will end.
+ The time is: 20
+
+D is reimaging ServerB
+Reimaging--------------------ServerB
+
+{'Status': 'DOWN', 'Control': 'DEF', 'Name': 'ServerB', 'Probes till now': 0, 'Reimage Count': 2, 'Total Downtime': 0, 'Probability of Compromise': 0}
+ServerB is DOWN. Will be up again at 25
+
+
+Random server is ServerA
+-----------------------------------------------------------
+The events queue is
+At time 21 ServerC will reactivate.
+At time 22 A will probe ServerA
+At time 24 D will reimage ServerA
+At time 25 ServerB will reactivate.
+At time 30 Game will end.
+ The time is: 21
+
+ServerC is up and running again
+Random server is ServerA
+-----------------------------------------------------------
+The events queue is
+At time 23 A will probe ServerA
+At time 24 D will reimage ServerA
+At time 25 ServerB will reactivate.
+At time 30 Game will end.
+ The time is: 23
+
+A is probing and attacking ServerA
+Random server is ServerA
+-----------------------------------------------------------
+The events queue is
+At time 24 D will reimage ServerA
+At time 25 ServerB will reactivate.
+At time 25 A will probe ServerC
+At time 30 Game will end.
+ The time is: 24
+
+D is reimaging ServerA
+Reimaging--------------------ServerA
+
+{'Status': 'DOWN', 'Control': 'DEF', 'Name': 'ServerA', 'Probes till now': 0, 'Reimage Count': 2, 'Total Downtime': 0, 'Probability of Compromise': 0}
+ServerA is DOWN. Will be up again at 29
+
+
+Random server is ServerC
+-----------------------------------------------------------
+The events queue is
+At time 25 ServerB will reactivate.
+At time 26 A will probe ServerC
+At time 28 D will reimage ServerC
+At time 29 ServerA will reactivate.
+At time 30 Game will end.
+ The time is: 25
+
+ServerB is up and running again
+Random server is ServerB
+-----------------------------------------------------------
+The events queue is
+At time 27 A will probe ServerB
+At time 28 D will reimage ServerC
+At time 29 ServerA will reactivate.
+At time 30 Game will end.
+ The time is: 27
+
+A is probing and attacking ServerB
+Random server is ServerB
+-----------------------------------------------------------
+The events queue is
+At time 28 D will reimage ServerC
+At time 29 ServerA will reactivate.
+At time 29 A will probe ServerC
+At time 30 Game will end.
+ The time is: 28
+
+D is reimaging ServerC
+Reimaging--------------------ServerC
+
+{'Status': 'DOWN', 'Control': 'DEF', 'Name': 'ServerC', 'Probes till now': 0, 'Reimage Count': 3, 'Total Downtime': 0, 'Probability of Compromise': 0}
+ServerC is DOWN. Will be up again at 33
+
+
+Random server is ServerB
+-----------------------------------------------------------
+The events queue is
+At time 29 ServerA will reactivate.
+At time 30 Game will end.
+ The time is: 29
+
+ServerA is up and running again
+Random server is ServerB
+-----------------------------------------------------------
+The events queue is
+At time 30 Game will end.
+ The time is: 30
+
+Game is over
+{0: {'inactiveResources': {}, 'activeResources': {'ServerA': {'Status': 'HEALTHY', 'Control': 'DEF', 'Name': 'ServerA', 'Probes till now': 0, 'Reimage Count': 0, 'Total Downtime': 0, 'Probability of Compromise': 0}, 'ServerB': {'Status': 'HEALTHY', 'Control': 'DEF', 'Name': 'ServerB', 'Probes till now': 0, 'Reimage Count': 0, 'Total Downtime': 0, 'Probability of Compromise': 0}, 'ServerC': {'Status': 'PROBED', 'Control': 'DEF', 'Name': 'ServerC', 'Probes till now': 1, 'Reimage Count': 0, 'Total Downtime': 0, 'Probability of Compromise': 0.1}}}, 2: {'inactiveResources': {'ServerC': {'Status': 'DOWN', 'Control': 'DEF', 'Name': 'ServerC', 'Probes till now': 0, 'Reimage Count': 1, 'Total Downtime': 0, 'Probability of Compromise': 0}}, 'activeResources': {'ServerA': {'Status': 'HEALTHY', 'Control': 'DEF', 'Name': 'ServerA', 'Probes till now': 0, 'Reimage Count': 0, 'Total Downtime': 0, 'Probability of Compromise': 0}, 'ServerB': {'Status': 'HEALTHY', 'Control': 'DEF', 'Name': 'ServerB', 'Probes till now': 0, 'Reimage Count': 0, 'Total Downtime': 0, 'Probability of Compromise': 0}}}, 4: {'inactiveResources': {'ServerC': {'Status': 'DOWN', 'Control': 'DEF', 'Name': 'ServerC', 'Probes till now': 0, 'Reimage Count': 1, 'Total Downtime': 0, 'Probability of Compromise': 0}}, 'activeResources': {'ServerA': {'Status': 'PROBED', 'Control': 'DEF', 'Name': 'ServerA', 'Probes till now': 1, 'Reimage Count': 0, 'Total Downtime': 0, 'Probability of Compromise': 0.1}, 'ServerB': {'Status': 'HEALTHY', 'Control': 'DEF', 'Name': 'ServerB', 'Probes till now': 0, 'Reimage Count': 0, 'Total Downtime': 0, 'Probability of Compromise': 0}}}, 6: {'inactiveResources': {'ServerC': {'Status': 'DOWN', 'Control': 'DEF', 'Name': 'ServerC', 'Probes till now': 0, 'Reimage Count': 1, 'Total Downtime': 0, 'Probability of Compromise': 0}}, 'activeResources': {'ServerA': {'Status': 'PROBED', 'Control': 'DEF', 'Name': 'ServerA', 'Probes till now': 2, 'Reimage Count': 0, 'Total Downtime': 0, 'Probability of Compromise': 0.2}, 'ServerB': {'Status': 'HEALTHY', 'Control': 'DEF', 'Name': 'ServerB', 'Probes till now': 0, 'Reimage Count': 0, 'Total Downtime': 0, 'Probability of Compromise': 0}}}, 8: {'inactiveResources': {'ServerB': {'Status': 'DOWN', 'Control': 'DEF', 'Name': 'ServerB', 'Probes till now': 0, 'Reimage Count': 1, 'Total Downtime': 0, 'Probability of Compromise': 0}}, 'activeResources': {'ServerA': {'Status': 'PROBED', 'Control': 'DEF', 'Name': 'ServerA', 'Probes till now': 2, 'Reimage Count': 0, 'Total Downtime': 0, 'Probability of Compromise': 0.2}, 'ServerC': {'Status': 'HEALTHY', 'Control': 'DEF', 'Name': 'ServerC', 'Probes till now': 0, 'Reimage Count': 1, 'Total Downtime': 0, 'Probability of Compromise': 0}}}, 9: {'inactiveResources': {'ServerB': {'Status': 'DOWN', 'Control': 'DEF', 'Name': 'ServerB', 'Probes till now': 0, 'Reimage Count': 1, 'Total Downtime': 0, 'Probability of Compromise': 0}}, 'activeResources': {'ServerA': {'Status': 'PROBED', 'Control': 'DEF', 'Name': 'ServerA', 'Probes till now': 2, 'Reimage Count': 0, 'Total Downtime': 0, 'Probability of Compromise': 0.2}, 'ServerC': {'Status': 'PROBED', 'Control': 'DEF', 'Name': 'ServerC', 'Probes till now': 1, 'Reimage Count': 1, 'Total Downtime': 0, 'Probability of Compromise': 0.1}}}, 11: {'inactiveResources': {'ServerA': {'Status': 'DOWN', 'Control': 'DEF', 'Name': 'ServerA', 'Probes till now': 0, 'Reimage Count': 1, 'Total Downtime': 0, 'Probability of Compromise': 0}, 'ServerB': {'Status': 'DOWN', 'Control': 'DEF', 'Name': 'ServerB', 'Probes till now': 0, 'Reimage Count': 1, 'Total Downtime': 0, 'Probability of Compromise': 0}}, 'activeResources': {'ServerC': {'Status': 'PROBED', 'Control': 'DEF', 'Name': 'ServerC', 'Probes till now': 1, 'Reimage Count': 1, 'Total Downtime': 0, 'Probability of Compromise': 0.1}}}, 12: {'inactiveResources': {'ServerA': {'Status': 'DOWN', 'Control': 'DEF', 'Name': 'ServerA', 'Probes till now': 0, 'Reimage Count': 1, 'Total Downtime': 0, 'Probability of Compromise': 0}}, 'activeResources': {'ServerB': {'Status': 'HEALTHY', 'Control': 'DEF', 'Name': 'ServerB', 'Probes till now': 0, 'Reimage Count': 1, 'Total Downtime': 0, 'Probability of Compromise': 0}, 'ServerC': {'Status': 'PROBED', 'Control': 'DEF', 'Name': 'ServerC', 'Probes till now': 1, 'Reimage Count': 1, 'Total Downtime': 0, 'Probability of Compromise': 0.1}}}, 13: {'inactiveResources': {'ServerA': {'Status': 'DOWN', 'Control': 'DEF', 'Name': 'ServerA', 'Probes till now': 0, 'Reimage Count': 1, 'Total Downtime': 0, 'Probability of Compromise': 0}}, 'activeResources': {'ServerB': {'Status': 'HEALTHY', 'Control': 'DEF', 'Name': 'ServerB', 'Probes till now': 0, 'Reimage Count': 1, 'Total Downtime': 0, 'Probability of Compromise': 0}, 'ServerC': {'Status': 'PROBED', 'Control': 'DEF', 'Name': 'ServerC', 'Probes till now': 2, 'Reimage Count': 1, 'Total Downtime': 0, 'Probability of Compromise': 0.2}}}, 15: {'inactiveResources': {'ServerA': {'Status': 'DOWN', 'Control': 'DEF', 'Name': 'ServerA', 'Probes till now': 0, 'Reimage Count': 1, 'Total Downtime': 0, 'Probability of Compromise': 0}, 'ServerC': {'Status': 'DOWN', 'Control': 'DEF', 'Name': 'ServerC', 'Probes till now': 0, 'Reimage Count': 2, 'Total Downtime': 0, 'Probability of Compromise': 0}}, 'activeResources': {'ServerB': {'Status': 'HEALTHY', 'Control': 'DEF', 'Name': 'ServerB', 'Probes till now': 0, 'Reimage Count': 1, 'Total Downtime': 0, 'Probability of Compromise': 0}}}, 16: {'inactiveResources': {'ServerC': {'Status': 'DOWN', 'Control': 'DEF', 'Name': 'ServerC', 'Probes till now': 0, 'Reimage Count': 2, 'Total Downtime': 0, 'Probability of Compromise': 0}}, 'activeResources': {'ServerA': {'Status': 'HEALTHY', 'Control': 'DEF', 'Name': 'ServerA', 'Probes till now': 0, 'Reimage Count': 1, 'Total Downtime': 0, 'Probability of Compromise': 0}, 'ServerB': {'Status': 'HEALTHY', 'Control': 'DEF', 'Name': 'ServerB', 'Probes till now': 0, 'Reimage Count': 1, 'Total Downtime': 0, 'Probability of Compromise': 0}}}, 17: {'inactiveResources': {'ServerC': {'Status': 'DOWN', 'Control': 'DEF', 'Name': 'ServerC', 'Probes till now': 0, 'Reimage Count': 2, 'Total Downtime': 0, 'Probability of Compromise': 0}}, 'activeResources': {'ServerA': {'Status': 'HEALTHY', 'Control': 'DEF', 'Name': 'ServerA', 'Probes till now': 0, 'Reimage Count': 1, 'Total Downtime': 0, 'Probability of Compromise': 0}, 'ServerB': {'Status': 'PROBED', 'Control': 'DEF', 'Name': 'ServerB', 'Probes till now': 1, 'Reimage Count': 1, 'Total Downtime': 0, 'Probability of Compromise': 0.1}}}, 19: {'inactiveResources': {'ServerB': {'Status': 'DOWN', 'Control': 'DEF', 'Name': 'ServerB', 'Probes till now': 0, 'Reimage Count': 2, 'Total Downtime': 0, 'Probability of Compromise': 0}, 'ServerC': {'Status': 'DOWN', 'Control': 'DEF', 'Name': 'ServerC', 'Probes till now': 0, 'Reimage Count': 2, 'Total Downtime': 0, 'Probability of Compromise': 0}}, 'activeResources': {'ServerA': {'Status': 'HEALTHY', 'Control': 'DEF', 'Name': 'ServerA', 'Probes till now': 0, 'Reimage Count': 1, 'Total Downtime': 0, 'Probability of Compromise': 0}}}, 20: {'inactiveResources': {'ServerB': {'Status': 'DOWN', 'Control': 'DEF', 'Name': 'ServerB', 'Probes till now': 0, 'Reimage Count': 2, 'Total Downtime': 0, 'Probability of Compromise': 0}}, 'activeResources': {'ServerA': {'Status': 'HEALTHY', 'Control': 'DEF', 'Name': 'ServerA', 'Probes till now': 0, 'Reimage Count': 1, 'Total Downtime': 0, 'Probability of Compromise': 0}, 'ServerC': {'Status': 'HEALTHY', 'Control': 'DEF', 'Name': 'ServerC', 'Probes till now': 0, 'Reimage Count': 2, 'Total Downtime': 0, 'Probability of Compromise': 0}}}, 21: {'inactiveResources': {'ServerB': {'Status': 'DOWN', 'Control': 'DEF', 'Name': 'ServerB', 'Probes till now': 0, 'Reimage Count': 2, 'Total Downtime': 0, 'Probability of Compromise': 0}}, 'activeResources': {'ServerA': {'Status': 'PROBED', 'Control': 'DEF', 'Name': 'ServerA', 'Probes till now': 1, 'Reimage Count': 1, 'Total Downtime': 0, 'Probability of Compromise': 0.1}, 'ServerC': {'Status': 'HEALTHY', 'Control': 'DEF', 'Name': 'ServerC', 'Probes till now': 0, 'Reimage Count': 2, 'Total Downtime': 0, 'Probability of Compromise': 0}}}, 23: {'inactiveResources': {'ServerA': {'Status': 'DOWN', 'Control': 'DEF', 'Name': 'ServerA', 'Probes till now': 0, 'Reimage Count': 2, 'Total Downtime': 0, 'Probability of Compromise': 0}, 'ServerB': {'Status': 'DOWN', 'Control': 'DEF', 'Name': 'ServerB', 'Probes till now': 0, 'Reimage Count': 2, 'Total Downtime': 0, 'Probability of Compromise': 0}}, 'activeResources': {'ServerC': {'Status': 'HEALTHY', 'Control': 'DEF', 'Name': 'ServerC', 'Probes till now': 0, 'Reimage Count': 2, 'Total Downtime': 0, 'Probability of Compromise': 0}}}, 24: {'inactiveResources': {'ServerA': {'Status': 'DOWN', 'Control': 'DEF', 'Name': 'ServerA', 'Probes till now': 0, 'Reimage Count': 2, 'Total Downtime': 0, 'Probability of Compromise': 0}}, 'activeResources': {'ServerB': {'Status': 'HEALTHY', 'Control': 'DEF', 'Name': 'ServerB', 'Probes till now': 0, 'Reimage Count': 2, 'Total Downtime': 0, 'Probability of Compromise': 0}, 'ServerC': {'Status': 'HEALTHY', 'Control': 'DEF', 'Name': 'ServerC', 'Probes till now': 0, 'Reimage Count': 2, 'Total Downtime': 0, 'Probability of Compromise': 0}}}, 25: {'inactiveResources': {'ServerA': {'Status': 'DOWN', 'Control': 'DEF', 'Name': 'ServerA', 'Probes till now': 0, 'Reimage Count': 2, 'Total Downtime': 0, 'Probability of Compromise': 0}}, 'activeResources': {'ServerB': {'Status': 'PROBED', 'Control': 'DEF', 'Name': 'ServerB', 'Probes till now': 1, 'Reimage Count': 2, 'Total Downtime': 0, 'Probability of Compromise': 0.1}, 'ServerC': {'Status': 'HEALTHY', 'Control': 'DEF', 'Name': 'ServerC', 'Probes till now': 0, 'Reimage Count': 2, 'Total Downtime': 0, 'Probability of Compromise': 0}}}, 27: {'inactiveResources': {'ServerA': {'Status': 'DOWN', 'Control': 'DEF', 'Name': 'ServerA', 'Probes till now': 0, 'Reimage Count': 2, 'Total Downtime': 0, 'Probability of Compromise': 0}, 'ServerC': {'Status': 'DOWN', 'Control': 'DEF', 'Name': 'ServerC', 'Probes till now': 0, 'Reimage Count': 3, 'Total Downtime': 0, 'Probability of Compromise': 0}}, 'activeResources': {'ServerB': {'Status': 'PROBED', 'Control': 'DEF', 'Name': 'ServerB', 'Probes till now': 1, 'Reimage Count': 2, 'Total Downtime': 0, 'Probability of Compromise': 0.1}}}, 28: {'inactiveResources': {'ServerC': {'Status': 'DOWN', 'Control': 'DEF', 'Name': 'ServerC', 'Probes till now': 0, 'Reimage Count': 3, 'Total Downtime': 0, 'Probability of Compromise': 0}}, 'activeResources': {'ServerA': {'Status': 'HEALTHY', 'Control': 'DEF', 'Name': 'ServerA', 'Probes till now': 0, 'Reimage Count': 2, 'Total Downtime': 0, 'Probability of Compromise': 0}, 'ServerB': {'Status': 'PROBED', 'Control': 'DEF', 'Name': 'ServerB', 'Probes till now': 1, 'Reimage Count': 2, 'Total Downtime': 0, 'Probability of Compromise': 0.1}}}}

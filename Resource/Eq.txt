@@ -1,0 +1,34 @@
+Mapping of player strategies
+ATT:[periodic-11 periodic-15 periodic-17 periodic-19 periodic-23 periodic-3 periodic-6 periodic-9 ]
+DEF:[periodic-10 periodic-13 periodic-20 periodic-23 periodic-25 periodic-3 periodic-37 periodic-57 periodic-6 periodic-7 ]
+
+The numbers indicate the probability of choosing that strategy, as according to the strategy enumeration above
+
+Computes Nash equilibria using extreme point enumeration
+[0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]
+[0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+
+Compute equilibria via simplicial subdivision
+[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(0, 1), Fraction(0, 1)]
+[Fraction(0, 1), Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+
+
+Compute equilibria in a two-player game via linear complementarity
+[0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]
+[0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+
+Compute equilibria of a game using polynomial systems of equations
+[0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]
+[0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+
+Compute Nash equilibria using function minimization
+
+
+Compute quantal response equilbria
+[0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]
+[0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+
