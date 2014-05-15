@@ -1,0 +1,14 @@
+{
+  "players": [
+    {
+      "payoff": 268.80000000000075, 
+      "role": "ATT", 
+      "strategy": "periodicDecept-11_5"
+    }, 
+    {
+      "payoff": 8628.999999999995, 
+      "role": "DEF", 
+      "strategy": "periodic-23"
+    }
+  ]
+}

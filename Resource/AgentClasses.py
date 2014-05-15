@@ -118,11 +118,23 @@ class Attacker(Agent):
 			print d
 
 		for k,v in self.controlList.iteritems():
-			del d[v]
+			if 'Decept' in self.strategy:
+				if(self.currentTime - float(self.resourceInfo[v]['Probe History'][-1]) < float((self.stparam.split('_'))[1])):
+					del d[v]
+				else:
+					if self.debug:
+						print "Considering "+v+"with last probe "+str(self.resourceInfo[v]["Probe History"][-1]),
+						print "and current time "+str(self.currentTime)
+			else:
+				del d[v]
 
 		if not d:
 			# print "/////////////////EMPTY///////////////\n\n"
-			return (self.currentTime + float(self.stparam), None, 0)
+			if 'Decept' in self.strategy:
+				per = self.stparam.split('_')[0]
+			else:
+				per = self.stparam
+			return (self.currentTime + float(per), None, 0)
 			
 		c = {}
 		c['resourceInfo'] = d
@@ -155,7 +167,8 @@ class Attacker(Agent):
 		if(resource.isCompromised()):
 			resource.changeStatus(-1)
 			resource.controlledBy = "ATT"
-			self.controlList[self.currentTime] = resource.name
+			if resource.name not in self.controlList.values():
+				self.controlList[self.currentTime] = resource.name
 			#print "Compromised " + resource.name
 
 		self.actionHistory[self.currentTime] = resource.name

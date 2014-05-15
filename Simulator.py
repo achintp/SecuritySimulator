@@ -34,7 +34,7 @@ class SimulateCyberScenario(object):
 		self.params['downTime'] = args['downTime']
 		self.attackerList = []
 		self.defenderList = []
-		self.debug = 0
+		self.debug = 1
 		self.params['resourceReports'] = {}
 		self.gameState = 1
 		self.askAtt = True
@@ -314,6 +314,7 @@ class SimulateCyberScenario(object):
 				# r = self.state.getResource(*list(it[1][0]))
 				r = a.probe(r)
 				r.probeHistory.append(self.params['currentTime'])
+				a.currentTime = self.params['currentTime']
 				r = a.attack(r)
 				self.askDef = True
 				self.askAtt = True

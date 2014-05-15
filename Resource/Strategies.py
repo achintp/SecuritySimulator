@@ -46,6 +46,24 @@ class AttackerStrategies(AgentStrategies):
 		nextAction = (nextAttack, attackOrder[index])
 		return nextAction
 
+	def periodicMax(self, info, period):
+		"""
+			Chooses server to probe based on maximum probed till now
+		"""
+		timePeriod = float(period)
+		nextAttack = info['currentTime'] + timePeriod
+
+		attackOrder = sorted(info['resourceInfo'].items(), key = lambda x: x[1]['Probes till now'])
+		nextAction = (nextAttack, attackOrder[-1])
+		return nextAction
+
+	def periodicDecept(self, info, params):
+		"""
+		Adds compromised server to queryable servers after a certain time threshold
+		"""
+		period = (params.split('_'))[0]
+		return self.periodic(info, period)
+
 
 class DefenderStrategies(AgentStrategies):
 	"""
