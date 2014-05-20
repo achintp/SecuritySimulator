@@ -3,6 +3,8 @@ import pprint
 import itertools
 import numpy as np
 import collections
+import Donimation
+import SolveGame
 
 class Game(dict):
 	"""
@@ -34,23 +36,103 @@ class Game(dict):
 		#Payoff mat is att_str x def_str
 		self.adjMat = [['inf' \
 			for i in range(self.numStrategies[1])] \
+			for j in range(self.numStrategies[0])] 
+		self.payoffMat = [[(None, None) \
+			for i in range(self.numStrategies[1])] \
 			for j in range(self.numStrategies[0])]
-		self.payoffMat = copy.deepcopy(self.adjMat)
+		self.cliques = None
 
 		if payoffs:
 			for profile_data in payoffs:
 				self.addProfile(profile_data)
+		if self.debug:
+				# pprint.pprint(self.adjMat)
+				pprint.pprint(self.payoffMat)
 
 	def addProfile(self, profile_data):
 		if len(profile_data) == 2:
 			#two player game
 			ind = [-1,-1]
+			values = [None for i in range(2)]
 			for item in profile_data:
 				for k,v in self.roleInd.iteritems():
 					if item[0] == v:
 						ind[k] = (self.stratInd[item[0]])\
 							[item[1]]
+						values[k] = item[2]
+							
 			self.adjMat[ind[0]][ind[1]] = 1
+			self.payoffMat[ind[0]][ind[1]] = tuple(values)
+
+	def reduceGame(self):	
+		cols = len(self.payoffMat[0])
+		rows = len(self.payoffMat)
+		#red stands for reduced
+		redGame = Donimation.bimatrixDomination(self.payoffMat,\
+			rows, cols, 1)
+		self.redRows = redGame['redRows']
+		self.redCols = redGame['redCols']
+		self.payoffMat = redGame['redMat']
+		self.redNumStrategies = [len(self.redRows), len(self.redCols)]
+		self.redStrat = {}
+		for item in zip(self.roles, [redGame['redRows'], redGame['redCols']]):
+			self.redStrat[item[0]] = item[1]			
+
+		#Refactor the matrix
+		self.refactorGame()
+
+		if self.debug:
+			print "Reduced Game:"
+			pprint.pprint(self.redStrat)
+			pprint.pprint(self.numStrategies)
+			pprint.pprint(self.dominStrats)
+			pprint.pprint(self.strategies)
+			pprint.pprint(self.payoffMat)
+			pprint.pprint(self.adjMat)
+
+	def refactor(self):
+		self.numStrategies = self.redNumStrategies
+		self.dominStrats = {}
+		self.remStrats = {}
+		#Re-assign the strategies being used
+		for k,v in self.strategies.iteritems():
+			t = []
+			p = []
+			for item in v:
+				if self.stratInd[k][item] in self.redStrat[k]:
+					t.append(item)
+				else:
+					p.append(item)
+			self.dominStrats[k] = p
+			self.remStrats[k] = t
+		self.strategies = self.remStrats
+
+		#Refactor the indexing of the strategies
+		self.stratInd = {r:{s:i \
+			for i,s in enumerate(self.strategies[r])} \
+			for r in self.roles}
+
+		#Make the new adjacency matrix
+		self.adjMat = [['inf' \
+			for i in range(self.numStrategies[1])] \
+			for j in range(self.numStrategies[0])]
+
+		empty = (None, None)
+		for i in range(self.numStrategies[0]):
+			for j in range(self.numStrategies[1]):
+				if(self.payoffMat[i][j] != empty):
+					 self.adjMat[i][j] = 1
+
+		#print out the dominated strategies
+		with open('domStrategies.txt', 'w') as outFile:
+			pprint.pprint(self.dominStrats, outFile)
+
+
+	def refactorGame(self):
+		for item in zip(self.numStrategies, self.redNumStrategies):
+			if(item[0] != item[1]):
+				self.refactor()
+				return
 
 	def consensus(self, oldList):
 		newList = []
@@ -63,7 +145,8 @@ class Game(dict):
 				if newItem not in newList and \
 				newItem not in oldList:
 					newList.append(newItem)
-
+		print "newlist:"
+		print newList
 		return newList
 
 	def absorption(self, oldList, newList):
@@ -90,6 +173,8 @@ class Game(dict):
 			pprint.pprint(newList)
 
 		remainList.extend(newList)
+		print "remaining:"
+		print remainList
 		return remainList
 
 	def findCliques(self, oldList=[]):
@@ -99,7 +184,7 @@ class Game(dict):
 		newList = []
 
 		for i in range(0, self.numStrategies[0]):
-			t = set(i)
+			t = set([i])
 			r = set()
 			for j in range(0, self.numStrategies[1]):
 				if(self.adjMat[i][j] == 1):
@@ -119,7 +204,62 @@ class Game(dict):
 				pprint.pprint(oldList)
 			newList = self.consensus(oldList)
 
-		return oldList
+		#Convert the list back into strategy names
+		cliques = []
+		for item in oldList:
+			t = []
+			for r,agentStr in zip(self.roles, item):
+				p = set()
+				for strat in agentStr:
+					for k,v in self.stratInd[r].iteritems():
+						if v == strat:
+							p.add(k)
+				t.append(p)
+			cliques.append(t)
+		self.cliques = cliques
+
+		#Store the payoff table of each subgame
+		cliquePayoffs = []
+		for item in oldList:
+			t = [[ (None, None) for i in range(len(item[0]))]\
+				for j in range(len(item[1]))]
+			for i, aStr in enumerate(item[0]):
+				for j, dStr in enumerate(item[1]):
+					t[i][j] = self.payoffMat[aStr][dStr]
+			cliquePayoffs.append(t)
+
+		self.cliquePayoffs= cliquePayoffs
+		return cliques
+
+	def solveSubGames(self):
+
+		cliqueCount = 0
+		for pair in zip(self.cliques, self.cliquePayoffs):
+			#should be a list of two sets of strategies
+			cliques = pair[0]
+			#is an array of payoffs
+			payoffs = pair[1]
+
+			sNumStrat = [len(cliques[0]), len(cliques[1])]
+			strats = {}
+			for i,stratSet in enumerate(cliques):
+				strats[self.roleInd[i]] = {
+					j: strat \
+					for j, strat in enumerate(stratSet) 
+				}
+			cliqueCount += 1
+			p = SolveGame.gameData(self.roles, sNumStrat, strats, payoffs)
+
+			if self.debug:
+				pprint.pprint(p.roles)
+				pprint.pprint(p.numStrat)
+				pprint.pprint(p.strat)
+				pprint.pprint(p.payoff)
+			try:
+				SolveGame.solveGame(p, "clique"+str(cliqueCount))
+			except:
+				print "Error"
+
 
 	def printData(self):
 		pprint.pprint(self.roles)
@@ -133,15 +273,23 @@ class Game(dict):
 if __name__ == '__main__':
 	roles = ['ATT','DEF']
 	players = {r:1 for r in roles} 
-	strategies = {r:['temp'+str(i) \
+	strategies = {r:[r+str(i) \
 		for i in range(3)] for r in roles}
-	payoffs = [((roles[0], strategies[roles[0]][0], 1),\
-		(roles[1], strategies[roles[1]][1], 1))]
+	payoffs = [
+	(('ATT','ATT0',0),('DEF', 'DEF0', 2)),
+	(('ATT','ATT0',3),('DEF', 'DEF1', 1)),
+	(('ATT','ATT0',2),('DEF', 'DEF2', 3)),
+	(('ATT','ATT1',1),('DEF', 'DEF0', 4)),
+	(('ATT','ATT1',2),('DEF', 'DEF1', 1)),
+	(('ATT','ATT1',4),('DEF', 'DEF2', 1)),
+	(('ATT','ATT2',2),('DEF', 'DEF0', 1)),
+	(('ATT','ATT2',4),('DEF', 'DEF1', 4)),
+	(('ATT','ATT2',3),('DEF', 'DEF2', 2)),
+	]
 	pprint.pprint(payoffs)
-	g = Game(roles, players, strategies, payoffs, 0)
-	g.printData()
-
-	testList = [[set(['a']), set(['d', 'e', 'f'])],\
-	[set(['b']), set(['d', 'e', 'f'])],[set(['c']), \
-	set(['g', 'e', 'f'])]]
-	pprint.pprint(g.findCliques(testList))
+	g = Game(roles, players, strategies, payoffs, 1)
+	g.reduceGame()
+	pprint.pprint(g.findCliques())
+	print "-------------------------"
+	pprint.pprint(g.cliquePayoffs)
+	g.solveSubGames()
