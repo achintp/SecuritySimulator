@@ -83,13 +83,13 @@ def bimatrixDomination(payoff_mat, m, n, debug=0):
 		if debug:
 			print "Entered loop"
 		dim = 0
-		delD = findZeroEntry(R, rRows)
+		delD = findZeroEntry(R, rRows, dim)
 		if debug:
 			print "Row to be deleted-"+str(delD)
 		if delD == None:
 			#Search R for zero entry
 			dim = 1
-			delD = findZeroEntry(C, cCols)
+			delD = findZeroEntry(C, cCols, dim)
 			if debug:
 				print "Col to be deleted-"+str(delD)
 			if delD == None:
@@ -129,9 +129,9 @@ def bimatrixDomination(payoff_mat, m, n, debug=0):
 
 	return res
 
-def findZeroEntry(mat, dim):
-	for i in dim:
-		for j in dim:
+def findZeroEntry(mat, strats, dim):
+	for i in strats:
+		for j in strats:
 			if i != j:
 				if mat[i][j] == 0:
 					writeToFile(i,j,dim)
