@@ -1,6 +1,7 @@
 import sys
 import Game
 import pprint
+from decimal import Decimal
 import itertools
 import Donimation
 import gambit
@@ -9,16 +10,16 @@ import gambit.nash
 methods = {
 	"Compute equilibria of a game using polynomial systems of equations":\
 		 gambit.nash.ExternalEnumPolySolver,
-	"Computes Nash equilibria using extreme point enumeration":\
-		 gambit.nash.ExternalEnumMixedSolver,
-	"Compute equilibria in a two-player game via linear complementarity":\
-		 gambit.nash.ExternalLCPSolver,
-	"Compute Nash equilibria using function minimization":\
-		gambit.nash.ExternalLyapunovSolver,
-	"Compute equilibria via simplicial subdivision": \
-		gambit.nash.ExternalSimpdivSolver,
-	"Compute quantal response equilbria": \
-		gambit.nash.ExternalLogitSolver
+	# "Computes Nash equilibria using extreme point enumeration":\
+	# 	 gambit.nash.ExternalEnumMixedSolver,
+	# "Compute equilibria in a two-player game via linear complementarity":\
+	# 	 gambit.nash.ExternalLCPSolver,
+	# "Compute Nash equilibria using function minimization":\
+	# 	gambit.nash.ExternalLyapunovSolver,
+	# "Compute equilibria via simplicial subdivision": \
+	# 	gambit.nash.ExternalSimpdivSolver,
+	# "Compute quantal response equilbria": \
+	# 	gambit.nash.ExternalLogitSolver
 }
 
 class gameData:
@@ -52,8 +53,8 @@ def solveGame(data, outname):
 
 	for item in itertools.product(range(data.numStrat[0]),\
 		range(data.numStrat[1])):
-		g[item[0],item[1]][0] = data.payoff[item[0]][item[1]][0]
-		g[item[0],item[1]][1] = data.payoff[item[0]][item[1]][1]
+		g[item[0],item[1]][0] = decimal.Decimal(data.payoff[item[0]][item[1]][0])
+		g[item[0],item[1]][1] = decimal.Decimal(data.payoff[item[0]][item[1]][1])
 
 	for profile in g.contingencies:
 		print g.players[0].strategies[profile[0]].label, \

@@ -76,7 +76,11 @@ class Game(dict):
 		self.redNumStrategies = [len(self.redRows), len(self.redCols)]
 		self.redStrat = {}
 		for item in zip(self.roles, [redGame['redRows'], redGame['redCols']]):
-			self.redStrat[item[0]] = item[1]			
+			self.redStrat[item[0]] = item[1]	
+
+		#Write out the iterated elimination file
+		# with open('IteratedElim.txt','r') as inFile:
+		# 	with open('IteratedElimStrats.txt', 'w') as outFile:
 
 		#Refactor the matrix
 		self.refactorGame()
@@ -126,6 +130,8 @@ class Game(dict):
 		#print out the dominated strategies
 		with open('domStrategies.txt', 'w') as outFile:
 			pprint.pprint(self.dominStrats, outFile)
+			pprint.pprint(self.remStrats, outFile)
+
 
 
 	def refactorGame(self):
@@ -135,9 +141,11 @@ class Game(dict):
 				return
 
 	def consensus(self, oldList):
+		print "In consensus"
 		newList = []
 		it = itertools.combinations(oldList,2)
 		for item in it:
+			print item
 			inter = item[0][1].intersection(item[1][1])
 			if(inter):
 				un = item[0][0].union(item[1][0])
@@ -145,14 +153,15 @@ class Game(dict):
 				if newItem not in newList and \
 				newItem not in oldList:
 					newList.append(newItem)
-		print "newlist:"
-		print newList
+		# print "newlist:"
+		# print newList
 		return newList
 
 	def absorption(self, oldList, newList):
 		# if self.debug:
 		# 	pprint.pprint(oldList)
 		# 	pprint.pprint(newList)
+		print "in absorption"
 		remainList = []
 		for item in oldList:
 			for comp in newList:
@@ -221,10 +230,11 @@ class Game(dict):
 		#Store the payoff table of each subgame
 		cliquePayoffs = []
 		for item in oldList:
-			t = [[ (None, None) for i in range(len(item[0]))]\
-				for j in range(len(item[1]))]
+			t = [[ (None, None) for i in range(len(item[1]))]\
+				for j in range(len(item[0]))]
 			for i, aStr in enumerate(item[0]):
 				for j, dStr in enumerate(item[1]):
+					print i,j,aStr,dStr, len(t), len(t[0])
 					t[i][j] = self.payoffMat[aStr][dStr]
 			cliquePayoffs.append(t)
 
@@ -232,7 +242,6 @@ class Game(dict):
 		return cliques
 
 	def solveSubGames(self):
-
 		cliqueCount = 0
 		for pair in zip(self.cliques, self.cliquePayoffs):
 			#should be a list of two sets of strategies
@@ -255,11 +264,28 @@ class Game(dict):
 				pprint.pprint(p.numStrat)
 				pprint.pprint(p.strat)
 				pprint.pprint(p.payoff)
-			try:
-				SolveGame.solveGame(p, "clique"+str(cliqueCount))
-			except:
-				print "Error"
+			# try:
+			SolveGame.solveGame(p, "clique"+str(cliqueCount))
+			# except:
+			# 	print "Error"
 
+	def solveGames(self):
+		strat = {}
+
+		for roles in self.roles:
+			t = {}
+			for k,v in self.stratInd[roles].iteritems():
+				t[v] = k
+			strat[roles] = t
+
+		p = SolveGame.gameData(self.roles, self.numStrategies, strat, self.payoffMat)
+		if self.debug:
+			pprint.pprint(p.roles)
+			pprint.pprint(p.numStrat)
+			pprint.pprint(p.strat)
+			pprint.pprint(p.payoff)
+
+		SolveGame.solveGame(p, "Game")
 
 	def printData(self):
 		pprint.pprint(self.roles)
@@ -292,4 +318,4 @@ if __name__ == '__main__':
 	pprint.pprint(g.findCliques())
 	print "-------------------------"
 	pprint.pprint(g.cliquePayoffs)
-	g.solveSubGames()
+	g.solveGames()
