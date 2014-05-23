@@ -49,4 +49,5 @@ if __name__=='__main__':
 	g = Game.Game(r['roles'], r['players'], r['strategies'], r['profileData'], 0)
 	g.reduceGame()
 	# pprint.pprint(g.findCliques())
-	g.solveGames()
+	# g.solveGames()
+	g.solveSubGames(4)

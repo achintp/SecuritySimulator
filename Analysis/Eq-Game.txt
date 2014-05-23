@@ -1,6 +1,0 @@
-Mapping of player strategies
-ATT:[periodicMax-0.1 periodicMax-11 periodicMax-15 periodicMax-17 periodicMax-20 periodicMax-4 ]
-DEF:[periodic-15 periodic-23 periodic-3 periodicRand-3 probeCountTime-1_150 probeCountTime-2_10 probeCountTime-2_100 probeCountTime-3_10 probeCountTime-4_10 ]
-
-
-Compute equilibria of a game using polynomial systems of equations

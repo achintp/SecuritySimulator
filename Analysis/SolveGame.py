@@ -8,10 +8,10 @@ import gambit
 import gambit.nash
 
 methods = {
-	"Compute equilibria of a game using polynomial systems of equations":\
-		 gambit.nash.ExternalEnumPolySolver,
-	# "Computes Nash equilibria using extreme point enumeration":\
-	# 	 gambit.nash.ExternalEnumMixedSolver,
+	# "Compute equilibria of a game using polynomial systems of equations":\
+	# 	 gambit.nash.ExternalEnumPolySolver,
+	"Computes Nash equilibria using extreme point enumeration":\
+		 gambit.nash.ExternalEnumMixedSolver
 	# "Compute equilibria in a two-player game via linear complementarity":\
 	# 	 gambit.nash.ExternalLCPSolver,
 	# "Compute Nash equilibria using function minimization":\
@@ -34,6 +34,19 @@ def writeToFile(fileHandle, game, results):
 		for player in game.players:
 			fileHandle.write(str(profiles.__getitem__(player)) + "\n")
 
+def writeEquToFile(fileHandle, game, results):
+	for profiles in results:
+		for players in game.players:
+			l = profiles.__getitem__(players)
+			strats = players.strategies
+			for pair in zip(l, strats):
+				if pair[0] > 0:
+					fileHandle.write(pair[1].label + "-" +str(pair[0]) + "\t")
+			fileHandle.write("\n")
+		fileHandle.write("\n\n")
+	fileHandle.write("\n\n")
+
+
 def solveGame(data, outname):
 	"""
 		data should be an object containing:
@@ -53,8 +66,8 @@ def solveGame(data, outname):
 
 	for item in itertools.product(range(data.numStrat[0]),\
 		range(data.numStrat[1])):
-		g[item[0],item[1]][0] = decimal.Decimal(data.payoff[item[0]][item[1]][0])
-		g[item[0],item[1]][1] = decimal.Decimal(data.payoff[item[0]][item[1]][1])
+		g[item[0],item[1]][0] = Decimal(data.payoff[item[0]][item[1]][0])
+		g[item[0],item[1]][1] = Decimal(data.payoff[item[0]][item[1]][1])
 
 	for profile in g.contingencies:
 		print g.players[0].strategies[profile[0]].label, \
@@ -73,7 +86,8 @@ def solveGame(data, outname):
 			rF.write(desc + "\n")
 			solver = func();
 			res = solver.solve(g)
-			writeToFile(rF, g, res)
+			writeEquToFile(rF, g, res)
+			# writeToFile(rF, g, res)
 			rF.write("\n\n")
 
 if __name__ == '__main__':

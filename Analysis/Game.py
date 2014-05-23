@@ -132,8 +132,6 @@ class Game(dict):
 			pprint.pprint(self.dominStrats, outFile)
 			pprint.pprint(self.remStrats, outFile)
 
-
-
 	def refactorGame(self):
 		for item in zip(self.numStrategies, self.redNumStrategies):
 			if(item[0] != item[1]):
@@ -241,7 +239,7 @@ class Game(dict):
 		self.cliquePayoffs= cliquePayoffs
 		return cliques
 
-	def solveSubGames(self):
+	def solveCliqueGames(self):
 		cliqueCount = 0
 		for pair in zip(self.cliques, self.cliquePayoffs):
 			#should be a list of two sets of strategies
@@ -285,7 +283,46 @@ class Game(dict):
 			pprint.pprint(p.strat)
 			pprint.pprint(p.payoff)
 
-		SolveGame.solveGame(p, "Game")
+		SolveGame.solveGame(p, "Something")
+
+	def solveSubGames(self, num):
+		t = [[(None, None) for i in range(self.numStrategies[1])] for j in range(int(num))]
+		counter = 0
+		for triples in itertools.combinations(self.strategies[self.roles[0]], num):
+			print "Attacker strategies:- ",
+			print triples
+			p = []
+			m = {}
+			n = {}
+			for i, atStr in enumerate(triples):
+				m[i] = atStr
+				for j, dStr in enumerate(self.strategies[self.roles[1]]):
+					# p.append(self.payoffMat[self.stratInd[self.roles[0]][atStr]]\
+					# 	[self.stratInd[self.roles[1]][dStr]])
+					t[i][j] = self.payoffMat[self.stratInd[self.roles[0]][atStr]]\
+					[self.stratInd[self.roles[1]][dStr]]
+					if j not in n:
+						n[j] = dStr
+				# t.append(p)
+			if self.debug:
+				print p
+			numStrats = [num, self.numStrategies[1]]
+			
+			strats = {
+				self.roles[0]:m,
+				self.roles[1]:n
+			}
+
+			p = SolveGame.gameData(self.roles, numStrats, strats, t)
+			# if self.debug:
+			print "Subgame-" + str(counter)			
+			if self.debug:
+				pprint.pprint(p.roles)
+				pprint.pprint(p.numStrat)
+				pprint.pprint(p.strat)
+				pprint.pprint(p.payoff)
+			SolveGame.solveGame(p, "subGame_" + str(counter))
+			counter+=1
 
 	def printData(self):
 		pprint.pprint(self.roles)
@@ -294,7 +331,6 @@ class Game(dict):
 		pprint.pprint(self.roleInd)
 		pprint.pprint(self.stratInd)
 		pprint.pprint(self.adjMat)
-
 
 if __name__ == '__main__':
 	roles = ['ATT','DEF']
