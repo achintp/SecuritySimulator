@@ -1,6 +1,7 @@
 import sys
 import Game
 import pprint
+import json
 from decimal import Decimal
 import itertools
 import Donimation
@@ -46,6 +47,23 @@ def writeEquToFile(fileHandle, game, results):
 		fileHandle.write("\n\n")
 	fileHandle.write("\n\n")
 
+def writeEquToFileJson(fileHandle, game, results):
+	res = []
+	for profiles in results:
+		out = {"type":"GA_Profile"}
+		data = {}
+		for players in game.players:
+			if players.label not in data:
+				data[players.label] = {}
+			l = profiles.__getitem__(players)
+			strats = players.strategies
+			for pair in zip(l, strats):
+				if pair[0] > 0:
+					data[players.label][pair[1].label] = pair[0]
+		out["data"] = data
+		res.append(out)
+	json.dump(res, fileHandle)
+
 
 def solveGame(data, outname):
 	"""
@@ -74,21 +92,21 @@ def solveGame(data, outname):
 			g.players[1].strategies[profile[1]].label, \
 			g[profile][0], g[profile][1]
 
-	with open("Eq-" + outname + ".txt", 'w') as rF:
-		rF.write("Mapping of player strategies\n")
-		for player in g.players:
-			rF.write(player.label + ":[")
-			for strategy in player.strategies:
-				rF.write(strategy.label + " ")
-			rF.write("]\n")
-		rF.write("\n\n")
+	with open("subGames/Eq-" + outname + ".json", 'w') as rF:
+		# rF.write("Mapping of player strategies\n")
+		# for player in g.players:
+		# 	rF.write(player.label + ":[")
+		# 	for strategy in player.strategies:
+		# 		rF.write(strategy.label + " ")
+		# 	rF.write("]\n")
+		# rF.write("\n\n")
 		for desc, func in methods.iteritems():
-			rF.write(desc + "\n")
+			# rF.write(desc + "\n")
 			solver = func();
 			res = solver.solve(g)
-			writeEquToFile(rF, g, res)
+			writeEquToFileJson(rF, g, res)
 			# writeToFile(rF, g, res)
-			rF.write("\n\n")
+			# rF.write("\n\n")
 
 if __name__ == '__main__':
 	roles = ["ATT", "DEF"]

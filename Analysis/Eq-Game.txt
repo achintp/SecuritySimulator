@@ -1,0 +1,6 @@
+Mapping of player strategies
+ATT:[periodic-0.1 periodic-0.5 periodic-0.7 periodic-11 periodic-15 periodic-17 periodic-20 periodic-4 periodic-7 periodicDecept-0.1_13 periodicDecept-0.1_27 periodicDecept-0.1_35 periodicDecept-0.1_5 periodicDecept-11_1 periodicDecept-11_13 periodicDecept-11_27 periodicDecept-11_35 periodicDecept-11_5 periodicDecept-17_1 periodicDecept-17_13 periodicDecept-17_27 periodicDecept-17_35 periodicDecept-17_5 periodicDecept-20_1 periodicDecept-20_13 periodicDecept-20_27 periodicDecept-20_35 periodicDecept-20_5 periodicDecept-5_1 periodicDecept-5_13 periodicDecept-5_27 periodicDecept-5_35 periodicDecept-5_5 periodicMax-0.1 periodicMax-0.5 periodicMax-0.7 periodicMax-11 periodicMax-15 periodicMax-17 periodicMax-20 periodicMax-4 periodicMax-7 ]
+DEF:[periodic-15 periodic-23 periodic-3 periodicRand-3 probeCountTime-1_10 probeCountTime-1_100 probeCountTime-1_150 probeCountTime-1_200 probeCountTime-1_250 probeCountTime-1_300 probeCountTime-2_10 probeCountTime-2_100 probeCountTime-2_150 probeCountTime-2_200 probeCountTime-2_250 probeCountTime-2_300 probeCountTime-2_50 probeCountTime-3_10 probeCountTime-3_100 probeCountTime-3_150 probeCountTime-3_200 probeCountTime-3_250 probeCountTime-3_300 probeCountTime-3_50 probeCountTime-4_10 ]
+
+
+Computes Nash equilibria using extreme point enumeration
