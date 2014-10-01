@@ -11,6 +11,8 @@ Analysis/subGames
 Analysis/graph_inputs
 Analysis/Input_files
 Analysis/Results
+Analysis/*.txt
+Analysis/*.json
 
 # Debug Result files
 *.dout
