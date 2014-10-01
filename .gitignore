@@ -2,6 +2,17 @@
 __pycache__/
 *.py[cod]
 
+Data/
+Analysis/Data/summary_files
+Analysis/Error_files
+Analysis/figures
+Analysis/Data
+Analysis/subGames
+Analysis/graph_inputs
+Analysis/Input_files
+Analysis/Output_files
+Analysis/Results
+
 # Debug Result files
 *.dout
 
@@ -55,4 +66,5 @@ coverage.xml
 
 # Sphinx documentation
 docs/_build/
+
 
