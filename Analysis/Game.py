@@ -1,10 +1,12 @@
 import copy
 import pprint
+import snippets
 import itertools
 import numpy as np
 import collections
 import Donimation
 import SolveGame
+from tabulate import tabulate
 
 class Game(dict):
 	"""
@@ -42,17 +44,37 @@ class Game(dict):
 			for j in range(self.numStrategies[0])]
 		self.cliques = None
 
+		self.printObject = []
+		for i in range(self.numStrategies[0]+1):
+			t=[]
+			for j in range(self.numStrategies[1]+1):
+				t.append(None)
+			self.printObject.append(t)
+		# self.printPayoffMat()
+
+		self.printObject[0][0] = "Attacker Strats"
+
 		if payoffs:
 			for profile_data in payoffs:
 				self.addProfile(profile_data)
 		if self.debug:
-				# pprint.pprint(self.adjMat)
+				pprint.pprint(self.adjMat)
 				pprint.pprint(self.payoffMat)
+				print self.roleInd
+
+		# self.printPayoffMat()
+
+	def printPayoffMat(self):
+		# pprint.pprint(self.printObject)
+		print "Printing from inside game init\n\n"
+		print tabulate(self.printObject, headers="firstrow")
+
 
 	def addProfile(self, profile_data):
 		if len(profile_data) == 2:
 			#two player game
 			ind = [-1,-1]
+			roles=[None, None]
 			values = [None for i in range(2)]
 			for item in profile_data:
 				for k,v in self.roleInd.iteritems():
@@ -60,16 +82,21 @@ class Game(dict):
 						ind[k] = (self.stratInd[item[0]])\
 							[item[1]]
 						values[k] = item[2]
+						roles[k] = item[1]
 							
 			self.adjMat[ind[0]][ind[1]] = 1
 			self.payoffMat[ind[0]][ind[1]] = tuple(values)
+			self.printObject[ind[0]+1][ind[1]+1] = str(values)
+			self.printObject[0][ind[1]+1] = roles[1]
+			self.printObject[ind[0]+1][0] = roles[0]
 
 	def reduceGame(self):	
 		cols = len(self.payoffMat[0])
 		rows = len(self.payoffMat)
 		#red stands for reduced
-		redGame = Donimation.bimatrixDomination(self.payoffMat,\
-			rows, cols, 1)
+		# redGame = Donimation.bimatrixDomination(self.payoffMat, rows, cols, 0)
+		redGame = Donimation.deltaBimatrixDominationTop(self.payoffMat,\
+			rows, cols, 0.1, 42, self.stratInd, 0)
 		self.redRows = redGame['redRows']
 		self.redCols = redGame['redCols']
 		self.payoffMat = redGame['redMat']
@@ -131,6 +158,7 @@ class Game(dict):
 		with open('domStrategies.txt', 'w') as outFile:
 			pprint.pprint(self.dominStrats, outFile)
 			pprint.pprint(self.remStrats, outFile)
+		print "Printed dom file"
 
 	def refactorGame(self):
 		for item in zip(self.numStrategies, self.redNumStrategies):
@@ -288,9 +316,14 @@ class Game(dict):
 	def solveSubGames(self, num):
 		t = [[(None, None) for i in range(self.numStrategies[1])] for j in range(int(num))]
 		counter = 0
+		hodor = snippets.getFileNames("subGames")
 		for triples in itertools.combinations(self.strategies[self.roles[0]], num):
 			print "Attacker strategies:- ",
 			print triples
+			name = '_'.join(list(triples))
+			if name in hodor:
+				# print "Skipping "+name
+				continue
 			p = []
 			m = {}
 			n = {}
@@ -321,7 +354,8 @@ class Game(dict):
 				pprint.pprint(p.numStrat)
 				pprint.pprint(p.strat)
 				pprint.pprint(p.payoff)
-			SolveGame.solveGame(p, "subGame_" + str(counter))
+			SolveGame.solveGame(p, "subGame-" + name)
+			print "Finished subGame " + str(counter)
 			counter+=1
 
 	def printData(self):

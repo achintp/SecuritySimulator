@@ -1,0 +1,135 @@
+
+
+Delta - 0
+
+Row periodic-0.5 dominates row periodicDecept-0.1_1
+Row periodic-0.5 dominates row purePeriodicDecept-0.1_1
+Col No-Op dominates col periodic-3
+Col periodic-15 dominates col periodic-7
+Col No-Op dominates col periodicRand-3
+Row periodicDecept-0.1_13 dominates row purePeriodicDecept-0.1_5
+Col No-Op dominates col purePeriodic-3
+Row purePeriodicMax-0.1 dominates row purePeriodicDecept-0.1_27
+Col periodic-15 dominates col purePeriodic-7
+Col periodicRand-23 dominates col purePeriodicRand-15
+Col No-Op dominates col purePeriodicRand-3
+Row purePeriodic-0.1 dominates row periodicDecept-0.1_5
+Col periodic-15 dominates col purePeriodicRand-7
+
+
+Delta - 1
+
+Row periodicMax-0.1 dominates row periodicDecept-0.1_27
+Row periodicDecept-11_35 dominates row periodicDecept-11_1
+Row periodicDecept-0.1_35 dominates row purePeriodicDecept-0.1_13
+Row purePeriodicDecept-11_35 dominates row purePeriodicDecept-11_1
+Row purePeriodic-11 dominates row purePeriodicDecept-11_5
+Row purePeriodicDecept-5_35 dominates row purePeriodicDecept-5_13
+Row purePeriodicDecept-5_35 dominates row purePeriodicDecept-5_27
+Col periodic-15 dominates col periodicRand-15
+Col periodic-23 dominates col purePeriodicRand-23
+Col periodic-31 dominates col purePeriodicRand-31
+Col periodic-46 dominates col purePeriodicRand-46
+Col periodic-57 dominates col purePeriodicRand-57
+Col periodicRand-67 dominates col purePeriodicRand-67
+
+
+Delta - 2
+
+Row periodicDecept-0.1_35 dominates row periodicDecept-0.1_13
+Row periodicDecept-11_27 dominates row periodicDecept-11_13
+Row periodicDecept-11_27 dominates row periodicDecept-11_5
+Row periodicDecept-5_27 dominates row periodicDecept-5_13
+Row purePeriodicDecept-11_27 dominates row purePeriodicDecept-11_13
+Col periodic-75 dominates col purePeriodicRand-75
+
+
+Delta - 3
+
+Row periodicDecept-5_35 dominates row periodicDecept-5_27
+
+
+Delta - 4
+
+Row purePeriodic-17 dominates row periodicDecept-17_27
+Col probeCountTime-4_10 dominates col probeCountTime-2_10
+Row purePeriodicDecept-5_1 dominates row periodicDecept-5_1
+
+
+Delta - 5
+
+Row purePeriodicDecept-17_35 dominates row purePeriodicDecept-17_27
+Col probeCountTime-4_10 dominates col probeCountTime-3_10
+
+
+Delta - 6
+
+
+
+Delta - 7
+
+Row purePeriodic-7 dominates row periodic-7
+Row purePeriodicDecept-17_13 dominates row periodicDecept-17_13
+
+
+Delta - 8
+
+Row periodicMax-0.7 dominates row periodic-0.7
+Row purePeriodicDecept-5_5 dominates row periodicDecept-5_5
+
+
+Delta - 9
+
+
+
+Delta - 10
+
+Row periodicMax-0.5 dominates row periodic-0.5
+Row purePeriodicDecept-5_5 dominates row purePeriodicDecept-5_1
+
+
+Delta - 11
+
+Row purePeriodicDecept-20_5 dominates row periodicDecept-20_1
+
+
+Delta - 12
+
+Row purePeriodicDecept-0.1_35 dominates row periodicDecept-0.1_35
+Row purePeriodicDecept-17_1 dominates row periodicDecept-17_1
+Row purePeriodic-7 dominates row periodicMax-7
+
+
+Delta - 13
+
+Row periodicMax-0.5 dominates row purePeriodic-0.5
+
+
+Delta - 14
+
+Row purePeriodicDecept-17_13 dominates row purePeriodicDecept-17_1
+
+
+Delta - 15
+
+Row purePeriodicDecept-20_27 dominates row periodicDecept-20_35
+Row purePeriodicMax-0.1 dominates row periodicMax-0.1
+
+
+Delta - 16
+
+Row periodic-15 dominates row periodic-17
+Row purePeriodic-15 dominates row periodicDecept-17_35
+Row periodic-15 dominates row periodicDecept-17_5
+Row periodicMax-15 dominates row periodicMax-17
+Row periodic-15 dominates row purePeriodic-17
+Row purePeriodic-15 dominates row purePeriodicDecept-17_13
+Row purePeriodic-15 dominates row purePeriodicDecept-17_5
+Row purePeriodicDecept-20_5 dominates row purePeriodicDecept-20_13
+Row periodicMax-15 dominates row purePeriodicMax-17
+
+
+Delta - 17
+
+Row purePeriodicDecept-11_35 dominates row periodicDecept-11_35
+Row purePeriodicDecept-20_5 dominates row periodicDecept-20_13

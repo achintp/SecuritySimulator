@@ -1,6 +1,7 @@
 import copy
 import time
 import random
+import json
 from pprint import pprint
 import Resource.Utility as Utility
 import Resource.Strategies as Strategies
@@ -34,17 +35,30 @@ class SimulateCyberScenario(object):
 		self.params['downTime'] = args['downTime']
 		self.attackerList = []
 		self.defenderList = []
-		self.debug = 1
+		self.debug = 0
 		self.params['resourceReports'] = {}
 		self.gameState = 1
 		self.askAtt = True
 		self.askDef = True
 		self.simType = 0
+		self.attSwitch = True
+		self.defSwitch = True
 		token = 'probe'
 
+		self.defStrategy = None
 		for k,v in args['defenderList'].iteritems():
+			self.defStrategy = v
 			if token in v:
 				self.simType = 1
+
+		self.attStrategy = None
+		for k,v in args['attackerList'].iteritems():
+			self.attStrategy = v
+
+		if self.defStrategy == 'No-Op':
+			self.defSwitch = False
+		if self.attStrategy == 'No-Op':
+			self.attSwitch = False
 
 		#Construct utility parameters
 		self.utilParams = {}
@@ -116,8 +130,26 @@ class SimulateCyberScenario(object):
 
 			for index, items in enumerate(self.eventQueue):
 				if items[2] == 0:
+					#In case pure perodic, just replace with
+					#existing time of next attack
+					if 'pure' in self.attStrategy:
+						temp = list(nextEvent)
+						temp[0] = items[0]
+						nextEvent = tuple(temp)					
 					self.eventQueue.pop(index)
 
+			if nextEvent[0] == -1:
+				#There doesn't exist a next attacker event
+				#Queue up for p time from the current time
+				temp = list(nextEvent)
+				if 'Decept' in self.attStrategy:
+					temp[0] = self.params['currentTime'] + float((self.attStrategy.split('-')[1]).split('_')[0])
+				else:	
+					temp[0] = self.params['currentTime'] + float(self.attStrategy.split('-')[1])
+				nextEvent = tuple(temp)
+				# if self.debug:
+				# 	print "Assigned new attack"
+				# 	pprint(nextEvent)
 			self.eventQueue.append(nextEvent)
 
 		self.sortEventQueue()
@@ -132,16 +164,25 @@ class SimulateCyberScenario(object):
 			Analogous to attacker 
 		"""
 		#If existing defender event in queue, then keep that
+		nextTime = None
 		for items in self.eventQueue:
 			if(items[2] == 1): 
 				#print "Defender Action exists-------------------"
 				#print items
+				if 'pure' in self.defStrategy:
+						nextTime = items[0]
+						self.eventQueue.remove(items)
+						continue
 				if(items[1] == None or self.simType == 1):
 					self.eventQueue.remove(items)
 				else:
 					if self.debug:
-						print "Defender actiokn exists"
-					return
+						print "Defender action exists"
+					if 'pure' in self.defStrategy:
+						# print "This is never executed so I just left it in LOL"
+						continue
+					else:
+						return
 
 		d = dict(self.params['resourceReports'])
 		d['time'] = self.params['currentTime']
@@ -152,6 +193,12 @@ class SimulateCyberScenario(object):
 				if self.debug:
 					print "No defender Action"
 				return 0
+			else:
+				if 'pure' in self.defStrategy:
+					if nextTime:
+						temp = list(nextEvent)
+						temp[0] = nextTime
+						nextEvent = tuple(temp)
 			self.eventQueue.append(nextEvent)
 
 		self.sortEventQueue()
@@ -399,18 +446,38 @@ class SimulateCyberScenario(object):
 				print events[1] + " will reactivate."
 		print "-----------------------------------------------------------\n"	
 
+	def printAgentMoves(self):
+		print "\n"
+		for item in self.eventQueue:
+			if item[2] == -1:
+				print "Game ends at " + str(item[0])
+			elif item[2] == 0:
+				print "Attacker move at " + str(item[0])
+			elif item[2] == 1:
+				print "Defender move at " + str(item[0])
+			elif item[2] == 2:
+				print "Server waking at " + str(item[0])
+			else:
+				print "WTF"
 
 	def Simulate(self):
 		#Start the simulation and keeps it running
 		#Implements normal wall clock periodic strategy
 		if self.simType == 0 or self.simType == 1:
+			# with open('res.json', 'w') as jFile:
 			while(self.gameState):
 				self.updateInformation()
-				if(self.askAtt):
-					self.askAttacker()
-				if(self.askDef):
-					self.askDefender()
+				if self.attSwitch:
+					if(self.askAtt):
+						self.askAttacker()
+				if self.defSwitch:
+					if(self.askDef):
+						self.askDefender()
+				# json.dump(self.eventQueue, jFile)
+				# self.printAgentMoves()
+					# print "\n"
 				self.executeAction()
+
 
 		#Hybdrid defender strategy of #of probes and time
 		#since last probe

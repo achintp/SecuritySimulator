@@ -1,0 +1,6 @@
+graph_inputs/ACYD1D-summary.json
+graph_inputs/ACYD1NoOp-summary.json
+graph_inputs/ACYD2D-summary.json
+graph_inputs/ACYD2NoOp-summary.json
+graph_inputs/ACYD3D-summary.json
+graph_inputs/ACYD3x-summary.json

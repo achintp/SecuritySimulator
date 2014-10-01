@@ -1,0 +1,22 @@
+pmFile - payoff matrix
+cqFile - cliques
+Delta - delta allowed
+e - accumulated delta
+n - iteration count
+numS0 - number of initial strategies
+numS - number of strategies
+numSprev - number of strategies from previous iteration
+step - step size (for delta increment?)
+dlist - array
+
+
+
+
+-----------------------------------------
+delta2G.pl
+-----------------------------------------
+
+pmFile - payoff matrix
+cqFile - cliques
+numT - number of strategies in subset
+T - subset of strategies to be pruned

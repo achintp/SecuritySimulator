@@ -134,7 +134,10 @@ class Attacker(Agent):
 				per = self.stparam.split('_')[0]
 			else:
 				per = self.stparam
-			return (self.currentTime + float(per), None, 0)
+			if 'pure' in self.strategy:
+				return (-1, None, 0)
+			else:
+				return (self.currentTime + float(per), None, 0)
 			
 		c = {}
 		c['resourceInfo'] = d
@@ -216,7 +219,7 @@ class Defender(Agent):
 
 		if not d:
 			# print "/////////////////EMPTY///////////////\n\n"
-			if 'periodic' in self.strategy:
+			if 'periodic' in self.strategy or 'Periodic' in self.strategy:
 				return (self.currentTime + float(self.stparam), None, 1)
 			else:
 				return -1

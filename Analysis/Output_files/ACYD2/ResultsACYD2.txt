@@ -1,0 +1,36 @@
+u'ATT'
+{u'periodic-20': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 1.0}
+
+
+u'ATT'
+{u'purePeriodicDecept-20_5': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 1.0}
+
+
+u'ATT'
+{u'purePeriodic-20': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 1.0}
+
+
+u'ATT'
+{u'periodic-20': 0.0539066818, u'purePeriodicMax-20': 0.9460933182}
+u'DEF'
+{u'probeCountTime-1_10': 1.0}
+
+
+u'ATT'
+{u'purePeriodic-20': 0.0523915884, u'purePeriodicMax-20': 0.9476084116}
+u'DEF'
+{u'probeCountTime-1_10': 1.0}
+
+
+u'ATT'
+{u'purePeriodicDecept-20_5': 0.0658459815, u'purePeriodicMax-20': 0.9341540185}
+u'DEF'
+{u'probeCountTime-1_10': 1.0}
+
+

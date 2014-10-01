@@ -1,0 +1,2756 @@
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 1.0} 
+
+
+u'ATT'
+{u'purePeriodicMax-0.1': 1.0}
+u'DEF'
+{u'No-Op': 1.0}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 0.0012702469,
+ u'probeCountTime-1_10': 0.784651148,
+ u'probeCountTime-2_100': 0.2140786051}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 0.0004556482,
+ u'probeCountTime-1_10': 0.8376657484,
+ u'probeCountTime-2_150': 0.1618786034}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 0.0004822729,
+ u'probeCountTime-1_10': 0.87812313,
+ u'probeCountTime-3_100': 0.1213945971}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8370405142, u'probeCountTime-2_150': 0.1629594858}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8472747573,
+ u'probeCountTime-2_150': 0.0964044691,
+ u'probeCountTime-2_200': 0.0563207736}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8151418263,
+ u'probeCountTime-2_100': 0.1415970124,
+ u'probeCountTime-2_250': 0.0432611614}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8434120831,
+ u'probeCountTime-2_150': 0.1367659243,
+ u'probeCountTime-2_250': 0.0198219926}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8775672717,
+ u'probeCountTime-2_250': 0.0207917702,
+ u'probeCountTime-3_100': 0.1016409581}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.842748078,
+ u'probeCountTime-2_150': 0.1441802509,
+ u'probeCountTime-2_300': 0.0130716712}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8788162965,
+ u'probeCountTime-2_300': 0.0137476564,
+ u'probeCountTime-3_100': 0.1074360471}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8435911286,
+ u'probeCountTime-2_300': 0.048038952,
+ u'probeCountTime-3_50': 0.1083699194}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8777471386, u'probeCountTime-3_100': 0.1222528614}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9145884326, u'probeCountTime-3_150': 0.0854115674}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8208945983,
+ u'probeCountTime-2_100': 0.1439141355,
+ u'probeCountTime-3_150': 0.0351912662}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.846234909,
+ u'probeCountTime-2_150': 0.1377823801,
+ u'probeCountTime-3_150': 0.0159827109}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8807956398,
+ u'probeCountTime-3_100': 0.102433608,
+ u'probeCountTime-3_150': 0.0167707522}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8062204325,
+ u'probeCountTime-2_100': 0.1752563661,
+ u'probeCountTime-3_200': 0.0185232014}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8425185821,
+ u'probeCountTime-2_150': 0.1499625841,
+ u'probeCountTime-3_200': 0.0075188338}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8800989092,
+ u'probeCountTime-3_100': 0.1119769955,
+ u'probeCountTime-3_200': 0.0079240953}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8427855521,
+ u'probeCountTime-3_200': 0.0309527151,
+ u'probeCountTime-3_50': 0.1262617329}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9484050544, u'probeCountTime-3_250': 0.0515949456}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.7988434431,
+ u'probeCountTime-2_100': 0.1895099058,
+ u'probeCountTime-3_250': 0.0116466511}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8408052453,
+ u'probeCountTime-2_150': 0.1546851034,
+ u'probeCountTime-3_250': 0.0045096513}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8795395164,
+ u'probeCountTime-3_100': 0.1156996834,
+ u'probeCountTime-3_250': 0.0047608002}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8350030404,
+ u'probeCountTime-3_250': 0.0205852572,
+ u'probeCountTime-3_50': 0.1444117024}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.7958935094,
+ u'probeCountTime-2_100': 0.195105958,
+ u'probeCountTime-3_300': 0.0090005326}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8793116995,
+ u'probeCountTime-3_100': 0.1170722841,
+ u'probeCountTime-3_300': 0.0036160165}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8315991878,
+ u'probeCountTime-3_300': 0.0162771785,
+ u'probeCountTime-3_50': 0.1521236337}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8356461666,
+ u'probeCountTime-2_100': 0.1198452053,
+ u'probeCountTime-4_100': 0.0445086281}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8514894845,
+ u'probeCountTime-2_150': 0.1262654627,
+ u'probeCountTime-4_100': 0.0222450528}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8050423306,
+ u'probeCountTime-2_100': 0.1791908384,
+ u'probeCountTime-4_150': 0.015766831}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.880301838,
+ u'probeCountTime-3_100': 0.1130387687,
+ u'probeCountTime-4_150': 0.0066593933}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8421794958,
+ u'probeCountTime-3_50': 0.1310707828,
+ u'probeCountTime-4_150': 0.0267497213}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.7969143943,
+ u'probeCountTime-2_100': 0.1938335578,
+ u'probeCountTime-4_200': 0.0092520479}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8404341874,
+ u'probeCountTime-2_150': 0.1560327607,
+ u'probeCountTime-4_200': 0.0035330519}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8795040336,
+ u'probeCountTime-3_100': 0.1167643433,
+ u'probeCountTime-4_200': 0.0037316232}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8330168357,
+ u'probeCountTime-3_50': 0.1503388852,
+ u'probeCountTime-4_200': 0.0166442791}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.7930083378,
+ u'probeCountTime-2_100': 0.2005176867,
+ u'probeCountTime-4_250': 0.0064739754}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8395348428,
+ u'probeCountTime-2_150': 0.1580445561,
+ u'probeCountTime-4_250': 0.0024206011}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8790858954,
+ u'probeCountTime-3_100': 0.1183556022,
+ u'probeCountTime-4_250': 0.0025585023}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.791236915,
+ u'probeCountTime-2_100': 0.2035388604,
+ u'probeCountTime-4_300': 0.0052242246}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8391383582,
+ u'probeCountTime-2_150': 0.1589265733,
+ u'probeCountTime-4_300': 0.0019350685}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8789000659,
+ u'probeCountTime-3_100': 0.1190539746,
+ u'probeCountTime-4_300': 0.0020459595}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8257649823,
+ u'probeCountTime-3_50': 0.1644450754,
+ u'probeCountTime-4_300': 0.0097899423}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 0.0101059402, u'probeCountTime-1_10': 0.9898940598}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9220755986, u'probeCountTime-4_100': 0.0779244014}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.7819191935, u'probeCountTime-2_100': 0.2180808065}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.5905052831, u'probeCountTime-2_50': 0.4094947169}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.4689443595,
+ u'probeCountTime-3_150': 0.0306006376,
+ u'probeCountTime-4_10': 0.5004550029}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.4312373701,
+ u'probeCountTime-3_300': 0.0195563227,
+ u'probeCountTime-4_10': 0.5492063072}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8143442369, u'probeCountTime-3_50': 0.1856557631}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.6918569355,
+ u'probeCountTime-2_50': 0.2236797962,
+ u'probeCountTime-3_50': 0.0844632683}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.3840247333,
+ u'probeCountTime-3_50': 0.0291283245,
+ u'probeCountTime-4_10': 0.5868469422}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.3042817918, u'probeCountTime-4_10': 0.6957182082}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.5107616442,
+ u'probeCountTime-4_10': 0.456567503,
+ u'probeCountTime-4_150': 0.0326708528}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.6691952684,
+ u'probeCountTime-4_10': 0.2681763634,
+ u'probeCountTime-4_100': 0.0626283682}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8974783931, u'probeCountTime-2_250': 0.1025216069}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9357875611, u'probeCountTime-3_200': 0.0642124389}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9414445478, u'probeCountTime-4_150': 0.0585554522}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9557586984, u'probeCountTime-4_200': 0.0442413016}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9642104012, u'probeCountTime-4_250': 0.0357895988}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9694988956, u'probeCountTime-4_300': 0.0305011044}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8714308446, u'probeCountTime-2_200': 0.1285691554}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9137444652, u'probeCountTime-2_300': 0.0862555348}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 0.0010261595,
+ u'probeCountTime-1_10': 0.9277094826,
+ u'probeCountTime-4_100': 0.0712643579}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8547932935,
+ u'probeCountTime-2_50': 0.0815475548,
+ u'probeCountTime-4_100': 0.0636591517}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8744555401,
+ u'probeCountTime-2_300': 0.0485366892,
+ u'probeCountTime-4_50': 0.0770077707}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8824377091,
+ u'probeCountTime-3_150': 0.0561765459,
+ u'probeCountTime-4_50': 0.0613857451}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8806697585,
+ u'probeCountTime-2_200': 0.0792066054,
+ u'probeCountTime-2_250': 0.0401236361}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8868590268,
+ u'probeCountTime-2_200': 0.0965851472,
+ u'probeCountTime-3_200': 0.016555826}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 0.0096997395,
+ u'probeCountTime-1_10': 0.9720403903,
+ u'probeCountTime-2_50': 0.0182598703}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.7160542648,
+ u'probeCountTime-2_250': 0.0452281076,
+ u'probeCountTime-2_50': 0.2387176276}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8589640186,
+ u'probeCountTime-2_100': 0.0833174179,
+ u'probeCountTime-2_300': 0.0577185635}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8956063826,
+ u'probeCountTime-2_300': 0.0505199713,
+ u'probeCountTime-3_100': 0.0538736461}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.718697983,
+ u'probeCountTime-2_50': 0.2449033218,
+ u'probeCountTime-3_150': 0.0363986953}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.7953339511,
+ u'probeCountTime-2_50': 0.164592899,
+ u'probeCountTime-3_200': 0.04007315}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.716419145,
+ u'probeCountTime-2_50': 0.2638885383,
+ u'probeCountTime-3_250': 0.0196923167}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.7839975585,
+ u'probeCountTime-2_50': 0.1915489551,
+ u'probeCountTime-3_300': 0.0244534864}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.7355947565,
+ u'probeCountTime-2_50': 0.2384312137,
+ u'probeCountTime-4_150': 0.0259740298}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9345253155,
+ u'probeCountTime-2_300': 0.0502095077,
+ u'probeCountTime-4_250': 0.0152651768}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.7680096045,
+ u'probeCountTime-2_50': 0.2167227883,
+ u'probeCountTime-4_300': 0.0152676073}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.641393765,
+ u'probeCountTime-2_200': 0.0270206612,
+ u'probeCountTime-2_50': 0.3315855738}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.61615728,
+ u'probeCountTime-2_250': 0.0117241082,
+ u'probeCountTime-2_50': 0.3721186118}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.6063521016,
+ u'probeCountTime-2_300': 0.0065273729,
+ u'probeCountTime-2_50': 0.3871205255}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.6029843011,
+ u'probeCountTime-2_50': 0.3929390006,
+ u'probeCountTime-3_200': 0.0040766983}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.5989927402,
+ u'probeCountTime-2_50': 0.3984160779,
+ u'probeCountTime-3_250': 0.0025911819}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.5976806466,
+ u'probeCountTime-2_50': 0.4002863902,
+ u'probeCountTime-4_200': 0.0020329633}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.5955120624,
+ u'probeCountTime-2_50': 0.4031212202,
+ u'probeCountTime-4_250': 0.0013667174}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.5946228856,
+ u'probeCountTime-2_50': 0.4042800992,
+ u'probeCountTime-4_300': 0.0010970152}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8738063749, u'probeCountTime-4_50': 0.1261936251}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.955734866, u'probeCountTime-3_300': 0.044265134}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.6208715904,
+ u'probeCountTime-2_100': 0.0352359586,
+ u'probeCountTime-2_50': 0.343892451}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.4171008788,
+ u'probeCountTime-2_100': 0.0521553456,
+ u'probeCountTime-4_10': 0.5307437756}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8882814788,
+ u'probeCountTime-3_250': 0.0277817784,
+ u'probeCountTime-4_50': 0.0839367428}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8913807295,
+ u'probeCountTime-2_200': 0.0975129836,
+ u'probeCountTime-3_300': 0.0111062869}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 0.0089086249,
+ u'probeCountTime-1_10': 0.9805513989,
+ u'probeCountTime-4_100': 0.0105399762}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8368147823,
+ u'probeCountTime-3_50': 0.1029043427,
+ u'probeCountTime-4_50': 0.060280875}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8773451983,
+ u'probeCountTime-3_250': 0.0230480248,
+ u'probeCountTime-4_50': 0.0996067769}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8754565402,
+ u'probeCountTime-3_300': 0.0172702057,
+ u'probeCountTime-4_50': 0.1072732541}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8532709664,
+ u'probeCountTime-3_50': 0.1010361426,
+ u'probeCountTime-4_100': 0.045692891}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.7992805933,
+ u'probeCountTime-2_150': 0.1393604568,
+ u'probeCountTime-2_50': 0.0613589499}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.7175853433,
+ u'probeCountTime-2_150': 0.1290638173,
+ u'probeCountTime-4_10': 0.1533508394}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8365710077,
+ u'probeCountTime-2_250': 0.0468250989,
+ u'probeCountTime-3_50': 0.1166038935}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8466998756,
+ u'probeCountTime-2_50': 0.0436383785,
+ u'probeCountTime-3_100': 0.1096617459}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.7847854868,
+ u'probeCountTime-3_100': 0.1037737282,
+ u'probeCountTime-4_10': 0.111440785}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8707277929,
+ u'probeCountTime-3_100': 0.0533748906,
+ u'probeCountTime-4_50': 0.0758973165}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8539064978,
+ u'probeCountTime-3_150': 0.0512609821,
+ u'probeCountTime-3_50': 0.0948325201}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8800352357,
+ u'probeCountTime-4_100': 0.0405578259,
+ u'probeCountTime-4_50': 0.0794069384}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8453102676,
+ u'probeCountTime-2_100': 0.0522476491,
+ u'probeCountTime-4_50': 0.1024420834}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8555585279,
+ u'probeCountTime-2_150': 0.0561306125,
+ u'probeCountTime-4_50': 0.0883108596}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8934344689,
+ u'probeCountTime-2_150': 0.009953171,
+ u'probeCountTime-2_250': 0.0966123601}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8955376946,
+ u'probeCountTime-2_250': 0.1020621925,
+ u'probeCountTime-2_50': 0.0024001129}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8962282099,
+ u'probeCountTime-2_250': 0.0979569214,
+ u'probeCountTime-3_100': 0.0058148687}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8956585825,
+ u'probeCountTime-2_250': 0.1013701967,
+ u'probeCountTime-3_50': 0.0029712208}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8986178114,
+ u'probeCountTime-2_250': 0.0942756476,
+ u'probeCountTime-4_100': 0.0071065411}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8549329189,
+ u'probeCountTime-3_150': 0.0525102809,
+ u'probeCountTime-3_50': 0.0925568003}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8814992123,
+ u'probeCountTime-3_100': 0.1027018377,
+ u'probeCountTime-4_100': 0.0157989501}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8823766369,
+ u'probeCountTime-4_100': 0.0469973032,
+ u'probeCountTime-4_50': 0.0706260599}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8360829253,
+ u'probeCountTime-2_100': 0.0714304437,
+ u'probeCountTime-2_200': 0.092486631}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8711140903,
+ u'probeCountTime-2_200': 0.0592691043,
+ u'probeCountTime-3_100': 0.0696168054}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8457618741,
+ u'probeCountTime-2_250': 0.0641610994,
+ u'probeCountTime-3_50': 0.0900770265}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 0.0093989847,
+ u'probeCountTime-1_10': 0.9813868325,
+ u'probeCountTime-2_200': 0.0092141828}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 0.0096567225,
+ u'probeCountTime-1_10': 0.9856967439,
+ u'probeCountTime-2_250': 0.0046465336}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 0.0097335944,
+ u'probeCountTime-1_10': 0.9853354719,
+ u'probeCountTime-3_100': 0.0049309336}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 0.0094230868,
+ u'probeCountTime-1_10': 0.9846150398,
+ u'probeCountTime-3_150': 0.0059618734}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 0.0098209531,
+ u'probeCountTime-1_10': 0.988311338,
+ u'probeCountTime-3_200': 0.0018677089}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 0.0095985053,
+ u'probeCountTime-1_10': 0.9877126794,
+ u'probeCountTime-3_250': 0.0026888153}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 0.0096879271,
+ u'probeCountTime-1_10': 0.9884402345,
+ u'probeCountTime-3_300': 0.0018718384}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 0.0098154172,
+ u'probeCountTime-1_10': 0.9884493683,
+ u'probeCountTime-4_150': 0.0017352145}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 0.0099089393,
+ u'probeCountTime-1_10': 0.9891890707,
+ u'probeCountTime-4_200': 0.00090199}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 0.009872566,
+ u'probeCountTime-1_10': 0.9892690605,
+ u'probeCountTime-4_250': 0.0008583735}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 0.0098053369,
+ u'probeCountTime-1_10': 0.9892604067,
+ u'probeCountTime-4_300': 0.0009342565}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 0.0098639607,
+ u'probeCountTime-1_10': 0.9857065997,
+ u'probeCountTime-4_50': 0.0044294396}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 0.008135164,
+ u'probeCountTime-1_10': 0.9444858405,
+ u'probeCountTime-3_50': 0.0473789955}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8973061019,
+ u'probeCountTime-2_150': 0.0004142719,
+ u'probeCountTime-2_250': 0.1022796262}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8968398995,
+ u'probeCountTime-2_250': 0.1001998,
+ u'probeCountTime-3_100': 0.0029603005}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.897102147,
+ u'probeCountTime-2_250': 0.1022889362,
+ u'probeCountTime-3_50': 0.0006089168}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8975290745,
+ u'probeCountTime-2_250': 0.1021302005,
+ u'probeCountTime-4_100': 0.0003407251}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8972037523,
+ u'probeCountTime-2_250': 0.1021503234,
+ u'probeCountTime-4_50': 0.0006459243}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.4882399535,
+ u'probeCountTime-3_250': 0.0293677,
+ u'probeCountTime-4_10': 0.4823923465}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 8.40779e-05,
+ u'probeCountTime-1_10': 0.7820711926,
+ u'probeCountTime-2_100': 0.2178447295}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.7822240115,
+ u'probeCountTime-2_100': 0.2167841144,
+ u'probeCountTime-2_150': 0.0009918741}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.7821983416,
+ u'probeCountTime-2_100': 0.2172686591,
+ u'probeCountTime-2_200': 0.0005329993}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.7821927867,
+ u'probeCountTime-2_100': 0.2174111179,
+ u'probeCountTime-2_250': 0.0003960954}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.7821667386,
+ u'probeCountTime-2_100': 0.2175315686,
+ u'probeCountTime-2_300': 0.0003016928}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.7823036302,
+ u'probeCountTime-2_100': 0.2171667074,
+ u'probeCountTime-3_100': 0.0005296623}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.782206455,
+ u'probeCountTime-2_100': 0.2175065258,
+ u'probeCountTime-3_150': 0.0002870193}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.7821648773,
+ u'probeCountTime-2_100': 0.2176245896,
+ u'probeCountTime-3_200': 0.0002105332}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.7821369191,
+ u'probeCountTime-2_100': 0.2176923159,
+ u'probeCountTime-3_250': 0.000170765}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.7821224215,
+ u'probeCountTime-2_100': 0.2177271318,
+ u'probeCountTime-3_300': 0.0001504467}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.7822089327,
+ u'probeCountTime-2_100': 0.2175256176,
+ u'probeCountTime-4_100': 0.0002654498}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.7821530497,
+ u'probeCountTime-2_100': 0.2176666817,
+ u'probeCountTime-4_150': 0.0001802686}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.7821232404,
+ u'probeCountTime-2_100': 0.2177321117,
+ u'probeCountTime-4_200': 0.0001446479}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.7821143811,
+ u'probeCountTime-2_100': 0.2177540084,
+ u'probeCountTime-4_250': 0.0001316105}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.7821027055,
+ u'probeCountTime-2_100': 0.2177774909,
+ u'probeCountTime-4_300': 0.0001198036}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.7845042072,
+ u'probeCountTime-2_100': 0.2112704908,
+ u'probeCountTime-4_50': 0.004225302}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 0.000207759,
+ u'probeCountTime-1_10': 0.8726979606,
+ u'probeCountTime-2_200': 0.1270942804}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 9.6672e-06,
+ u'probeCountTime-1_10': 0.9137808393,
+ u'probeCountTime-2_300': 0.0862094935}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8217073814,
+ u'probeCountTime-2_300': 0.0800568977,
+ u'probeCountTime-4_10': 0.0982357209}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8523746363,
+ u'probeCountTime-2_200': 0.1217291175,
+ u'probeCountTime-2_50': 0.0258962462}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.912711435,
+ u'probeCountTime-2_300': 0.0860330541,
+ u'probeCountTime-2_50': 0.0012555109}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9000876009,
+ u'probeCountTime-2_300': 0.059375472,
+ u'probeCountTime-3_100': 0.0405369271}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9147207268,
+ u'probeCountTime-2_300': 0.0819819968,
+ u'probeCountTime-3_200': 0.0032972764}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9145730467,
+ u'probeCountTime-2_300': 0.0840340875,
+ u'probeCountTime-3_250': 0.0013928658}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9140899131,
+ u'probeCountTime-2_300': 0.0854928899,
+ u'probeCountTime-3_300': 0.0004171969}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9116596909,
+ u'probeCountTime-2_300': 0.0851821577,
+ u'probeCountTime-3_50': 0.0031581514}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9142250342,
+ u'probeCountTime-2_300': 0.0851852885,
+ u'probeCountTime-4_200': 0.0005896773}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8794607393,
+ u'probeCountTime-2_200': 0.1169322029,
+ u'probeCountTime-4_250': 0.0036070578}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9139560255,
+ u'probeCountTime-2_300': 0.0858622831,
+ u'probeCountTime-4_250': 0.0001816913}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9139427982,
+ u'probeCountTime-2_300': 0.0859214032,
+ u'probeCountTime-4_300': 0.0001357987}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.5354293996,
+ u'probeCountTime-3_200': 0.0391801584,
+ u'probeCountTime-4_10': 0.425390442}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.4668857439,
+ u'probeCountTime-4_10': 0.5088286608,
+ u'probeCountTime-4_200': 0.0242855953}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.4400708997,
+ u'probeCountTime-4_10': 0.5403146129,
+ u'probeCountTime-4_250': 0.0196144874}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.4260729499,
+ u'probeCountTime-4_10': 0.5567151218,
+ u'probeCountTime-4_300': 0.0172119283}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 0.0093602322,
+ u'probeCountTime-1_10': 0.9777086593,
+ u'probeCountTime-2_150': 0.0129311084}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 0.009991439,
+ u'probeCountTime-1_10': 0.9840340005,
+ u'probeCountTime-2_50': 0.0059745605}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 0.0098886817,
+ u'probeCountTime-1_10': 0.984311079,
+ u'probeCountTime-3_50': 0.0058002393}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 0.0052399316,
+ u'probeCountTime-1_10': 0.3459792146,
+ u'probeCountTime-4_10': 0.6487808538}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.915676688,
+ u'probeCountTime-2_200': 0.0468461081,
+ u'probeCountTime-4_150': 0.0374772039}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9355222068,
+ u'probeCountTime-2_300': 0.0178030007,
+ u'probeCountTime-4_150': 0.0466747925}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8982880017,
+ u'probeCountTime-2_200': 0.0870708893,
+ u'probeCountTime-4_200': 0.014641109}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.934972809,
+ u'probeCountTime-2_300': 0.041924437,
+ u'probeCountTime-4_200': 0.023102754}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8786058652,
+ u'probeCountTime-2_200': 0.1187172552,
+ u'probeCountTime-4_300': 0.0026768796}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8663356745,
+ u'probeCountTime-2_250': 0.0093206416,
+ u'probeCountTime-4_50': 0.1243436839}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8670318668,
+ u'probeCountTime-2_300': 0.0084450561,
+ u'probeCountTime-4_50': 0.1245230771}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8672615222,
+ u'probeCountTime-3_100': 0.018199383,
+ u'probeCountTime-4_50': 0.1145390948}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8692807865,
+ u'probeCountTime-3_150': 0.0126215563,
+ u'probeCountTime-4_50': 0.1180976572}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8699989028,
+ u'probeCountTime-3_200': 0.010573617,
+ u'probeCountTime-4_50': 0.1194274802}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8703924435,
+ u'probeCountTime-3_250': 0.0095558844,
+ u'probeCountTime-4_50': 0.1200516721}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8706101904,
+ u'probeCountTime-3_300': 0.0088907604,
+ u'probeCountTime-4_50': 0.1204990492}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8738367914,
+ u'probeCountTime-4_100': 0.023300096,
+ u'probeCountTime-4_50': 0.1028631126}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8738397329,
+ u'probeCountTime-4_150': 0.0160095776,
+ u'probeCountTime-4_50': 0.1101506894}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8738197319,
+ u'probeCountTime-4_200': 0.0136012328,
+ u'probeCountTime-4_50': 0.1125790354}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8738069413,
+ u'probeCountTime-4_250': 0.0122857754,
+ u'probeCountTime-4_50': 0.1139072833}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8577424183,
+ u'probeCountTime-2_100': 0.0200244353,
+ u'probeCountTime-4_50': 0.1222331465}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8631178683,
+ u'probeCountTime-2_150': 0.0133124429,
+ u'probeCountTime-4_50': 0.1235696888}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8652137436,
+ u'probeCountTime-2_200': 0.0107036083,
+ u'probeCountTime-4_50': 0.1240826481}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8201043086,
+ u'probeCountTime-2_50': 0.0669360399,
+ u'probeCountTime-4_50': 0.1129596515}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8835362542,
+ u'probeCountTime-2_150': 0.0606411793,
+ u'probeCountTime-2_300': 0.0558225665}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9075576828,
+ u'probeCountTime-2_250': 0.0354274868,
+ u'probeCountTime-2_300': 0.0570148304}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.7580198765,
+ u'probeCountTime-3_150': 0.0750831704,
+ u'probeCountTime-4_10': 0.1668969531}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.6157696352,
+ u'probeCountTime-3_250': 0.0386771034,
+ u'probeCountTime-4_10': 0.3455532614}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9202725201,
+ u'probeCountTime-2_300': 0.0725519924,
+ u'probeCountTime-3_300': 0.0071754875}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.7760363482,
+ u'probeCountTime-2_200': 0.1174872496,
+ u'probeCountTime-4_10': 0.1064764022}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.591796466,
+ u'probeCountTime-3_300': 0.0321053171,
+ u'probeCountTime-4_10': 0.376098217}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 0.0032355381,
+ u'probeCountTime-1_10': 0.7115725785,
+ u'probeCountTime-2_50': 0.2851918834}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.6038665378,
+ u'probeCountTime-2_50': 0.3923202653,
+ u'probeCountTime-4_150': 0.0038131969}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.6891571036,
+ u'probeCountTime-2_200': 0.0975533671,
+ u'probeCountTime-4_10': 0.2132895293}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8438769681,
+ u'probeCountTime-2_250': 0.0606304475,
+ u'probeCountTime-3_50': 0.0954925844}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.86310947,
+ u'probeCountTime-2_200': 0.0992483991,
+ u'probeCountTime-4_50': 0.037642131}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8210804868,
+ u'probeCountTime-2_150': 0.0590168721,
+ u'probeCountTime-3_50': 0.1199026411}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8263512458,
+ u'probeCountTime-2_200': 0.039466177,
+ u'probeCountTime-3_50': 0.1341825772}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8282462769,
+ u'probeCountTime-2_250': 0.0309485642,
+ u'probeCountTime-3_50': 0.140805159}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8259130281,
+ u'probeCountTime-2_300': 0.0211409229,
+ u'probeCountTime-3_50': 0.1529460491}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8307976626,
+ u'probeCountTime-3_100': 0.0349283543,
+ u'probeCountTime-3_50': 0.1342739831}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8289498822,
+ u'probeCountTime-3_150': 0.0207198891,
+ u'probeCountTime-3_50': 0.1503302287}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8272618973,
+ u'probeCountTime-3_200': 0.0153353065,
+ u'probeCountTime-3_50': 0.1574027962}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8290504137,
+ u'probeCountTime-3_50': 0.1520844518,
+ u'probeCountTime-4_100': 0.0188651345}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8272332334,
+ u'probeCountTime-3_50': 0.1592729192,
+ u'probeCountTime-4_150': 0.0134938474}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8259838697,
+ u'probeCountTime-3_50': 0.1629465544,
+ u'probeCountTime-4_200': 0.0110695759}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8255955558,
+ u'probeCountTime-3_50': 0.1642892454,
+ u'probeCountTime-4_250': 0.0101151988}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8251172456,
+ u'probeCountTime-3_50': 0.1655541211,
+ u'probeCountTime-4_300': 0.0093286334}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8627226265,
+ u'probeCountTime-2_150': 0.1028884603,
+ u'probeCountTime-2_300': 0.0343889132}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.924387628,
+ u'probeCountTime-2_150': 0.0423244521,
+ u'probeCountTime-3_300': 0.0332879199}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9048918334,
+ u'probeCountTime-2_250': 0.0515603117,
+ u'probeCountTime-2_300': 0.043547855}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9435021582,
+ u'probeCountTime-2_50': 0.0135390871,
+ u'probeCountTime-3_300': 0.0429587547}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9443505009,
+ u'probeCountTime-3_100': 0.0173076818,
+ u'probeCountTime-3_300': 0.0383418173}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9496521431,
+ u'probeCountTime-3_150': 0.0124472152,
+ u'probeCountTime-3_300': 0.0379006417}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9551067499,
+ u'probeCountTime-3_250': 0.0037616069,
+ u'probeCountTime-3_300': 0.0411316432}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9385650458,
+ u'probeCountTime-3_300': 0.0405008217,
+ u'probeCountTime-3_50': 0.0209341326}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9498451498,
+ u'probeCountTime-3_300': 0.0383720255,
+ u'probeCountTime-4_100': 0.0117828247}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9178773384,
+ u'probeCountTime-3_200': 0.015099655,
+ u'probeCountTime-4_100': 0.0670230066}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9194063869,
+ u'probeCountTime-3_250': 0.009586026,
+ u'probeCountTime-4_100': 0.0710075871}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9200092539,
+ u'probeCountTime-3_300': 0.0074765028,
+ u'probeCountTime-4_100': 0.0725142433}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8935326497,
+ u'probeCountTime-2_150': 0.039664702,
+ u'probeCountTime-4_100': 0.0668026484}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9048694905,
+ u'probeCountTime-2_200': 0.0238376082,
+ u'probeCountTime-4_100': 0.0712929013}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9103180482,
+ u'probeCountTime-2_250': 0.0164392765,
+ u'probeCountTime-4_100': 0.0732426753}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9127449408,
+ u'probeCountTime-2_300': 0.0131145598,
+ u'probeCountTime-4_100': 0.0741404994}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9253499172,
+ u'probeCountTime-4_100': 0.0615832311,
+ u'probeCountTime-4_200': 0.0130668517}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.924120514,
+ u'probeCountTime-4_100': 0.0679830669,
+ u'probeCountTime-4_250': 0.0078964191}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9237494273,
+ u'probeCountTime-4_100': 0.0702000237,
+ u'probeCountTime-4_300': 0.006050549}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 0.0053626328,
+ u'probeCountTime-1_10': 0.9334927078,
+ u'probeCountTime-2_200': 0.0611446594}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9212171197,
+ u'probeCountTime-2_300': 0.054329087,
+ u'probeCountTime-3_200': 0.0244537933}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9304787583,
+ u'probeCountTime-2_300': 0.0598113029,
+ u'probeCountTime-4_300': 0.0097099388}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8962910604,
+ u'probeCountTime-2_200': 0.0861470503,
+ u'probeCountTime-3_250': 0.0175618894}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9252696153,
+ u'probeCountTime-2_300': 0.0563751441,
+ u'probeCountTime-3_250': 0.0183552406}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9063033366,
+ u'probeCountTime-3_250': 0.0353243559,
+ u'probeCountTime-4_50': 0.0583723075}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.7086885733,
+ u'probeCountTime-2_150': 0.0811049643,
+ u'probeCountTime-2_50': 0.2102064624}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.6402843993,
+ u'probeCountTime-2_200': 0.0861840708,
+ u'probeCountTime-4_10': 0.2735315299}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.699866599,
+ u'probeCountTime-2_50': 0.251432626,
+ u'probeCountTime-3_100': 0.048700775}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.6513540981,
+ u'probeCountTime-3_100': 0.0768857761,
+ u'probeCountTime-4_10': 0.2717601258}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.5792991708,
+ u'probeCountTime-4_10': 0.3721691923,
+ u'probeCountTime-4_100': 0.0485316369}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8006426504,
+ u'probeCountTime-2_50': 0.0956524643,
+ u'probeCountTime-4_50': 0.1037048854}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8419776089,
+ u'probeCountTime-2_100': 0.0587920907,
+ u'probeCountTime-2_200': 0.0992303004}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8486407258,
+ u'probeCountTime-2_150': 0.0904523705,
+ u'probeCountTime-2_200': 0.0609069037}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8707801033,
+ u'probeCountTime-2_200': 0.0731595969,
+ u'probeCountTime-3_100': 0.0560602998}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.897539487,
+ u'probeCountTime-2_200': 0.0492727633,
+ u'probeCountTime-3_150': 0.0531877497}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.913755362,
+ u'probeCountTime-2_300': 0.034806482,
+ u'probeCountTime-3_150': 0.051438156}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8988591179,
+ u'probeCountTime-3_150': 0.0719351727,
+ u'probeCountTime-4_50': 0.0292057094}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9035276281,
+ u'probeCountTime-2_200': 0.0278765061,
+ u'probeCountTime-4_100': 0.0685958658}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9127217937,
+ u'probeCountTime-2_300': 0.0199774403,
+ u'probeCountTime-4_100': 0.067300766}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.3456236231,
+ u'probeCountTime-4_10': 0.644394256,
+ u'probeCountTime-4_50': 0.009982121}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8793877742,
+ u'probeCountTime-3_200': 0.0324846729,
+ u'probeCountTime-4_50': 0.0881275529}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8765999103,
+ u'probeCountTime-4_200': 0.0181289618,
+ u'probeCountTime-4_50': 0.1052711279}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8744691015,
+ u'probeCountTime-4_250': 0.0132613506,
+ u'probeCountTime-4_50': 0.1122695479}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 0.0001914865,
+ u'probeCountTime-1_10': 0.5913233889,
+ u'probeCountTime-2_50': 0.4084851247}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.6052970428,
+ u'probeCountTime-2_50': 0.3896442327,
+ u'probeCountTime-4_100': 0.0050587245}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.6018661437,
+ u'probeCountTime-2_50': 0.3947000163,
+ u'probeCountTime-4_150': 0.00343384}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.5209076957,
+ u'probeCountTime-4_10': 0.444818669,
+ u'probeCountTime-4_150': 0.0342736353}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 0.0076081312,
+ u'probeCountTime-1_10': 0.9708332416,
+ u'probeCountTime-2_300': 0.0215586272}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8738080402,
+ u'probeCountTime-4_300': 0.0107611621,
+ u'probeCountTime-4_50': 0.1154307977}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 0.0021281953,
+ u'probeCountTime-1_10': 0.8750816442,
+ u'probeCountTime-4_50': 0.1227901606}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.6288568499,
+ u'probeCountTime-2_250': 0.0727872195,
+ u'probeCountTime-4_10': 0.2983559306}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8129734405,
+ u'probeCountTime-2_100': 0.1335839212,
+ u'probeCountTime-2_200': 0.0534426383}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8323835799,
+ u'probeCountTime-2_200': 0.0560767886,
+ u'probeCountTime-3_50': 0.1115396315}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8731290552,
+ u'probeCountTime-2_200': 0.0406973524,
+ u'probeCountTime-3_100': 0.0861735924}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8716786299,
+ u'probeCountTime-2_250': 0.066722821,
+ u'probeCountTime-4_50': 0.0615985491}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 0.0091134774,
+ u'probeCountTime-1_10': 0.9732240515,
+ u'probeCountTime-4_50': 0.0176624711}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.6068920462,
+ u'probeCountTime-2_250': 0.0683344553,
+ u'probeCountTime-4_10': 0.3247734985}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.5765511078,
+ u'probeCountTime-3_150': 0.0505574379,
+ u'probeCountTime-4_10': 0.3728914543}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8645214717,
+ u'probeCountTime-3_50': 0.0841435164,
+ u'probeCountTime-4_100': 0.0513350119}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 0.0094526975,
+ u'probeCountTime-1_10': 0.9819864329,
+ u'probeCountTime-3_100': 0.0085608696}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 0.0092918906,
+ u'probeCountTime-1_10': 0.9836160558,
+ u'probeCountTime-3_150': 0.0070920536}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 0.0092952136,
+ u'probeCountTime-1_10': 0.9864375776,
+ u'probeCountTime-3_250': 0.0042672089}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8944201474,
+ u'probeCountTime-2_100': 0.0050640138,
+ u'probeCountTime-2_250': 0.1005158388}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9018566956,
+ u'probeCountTime-2_250': 0.072145489,
+ u'probeCountTime-2_300': 0.0259978154}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8983058469,
+ u'probeCountTime-2_250': 0.0970077608,
+ u'probeCountTime-3_150': 0.0046863923}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9018059041,
+ u'probeCountTime-2_150': 0.0535858641,
+ u'probeCountTime-3_200': 0.0446082318}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.908988544,
+ u'probeCountTime-2_50': 0.0304328185,
+ u'probeCountTime-3_200': 0.0605786375}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9257962921,
+ u'probeCountTime-3_150': 0.0379779221,
+ u'probeCountTime-3_200': 0.0362257857}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9117126585,
+ u'probeCountTime-3_200': 0.0566379588,
+ u'probeCountTime-3_50': 0.0316493827}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9257587935,
+ u'probeCountTime-3_200': 0.0384886869,
+ u'probeCountTime-4_100': 0.0357525197}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.90014991,
+ u'probeCountTime-2_250': 0.0970306825,
+ u'probeCountTime-3_250': 0.0028194075}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9408181976,
+ u'probeCountTime-3_200': 0.0362952692,
+ u'probeCountTime-3_250': 0.0228865332}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9251580051,
+ u'probeCountTime-2_100': 0.0210481236,
+ u'probeCountTime-4_150': 0.0537938714}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9267735827,
+ u'probeCountTime-2_150': 0.0220157911,
+ u'probeCountTime-4_150': 0.0512106262}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9322433756,
+ u'probeCountTime-2_50': 0.0103254573,
+ u'probeCountTime-4_150': 0.0574311671}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9294465884,
+ u'probeCountTime-3_100': 0.0217339806,
+ u'probeCountTime-4_150': 0.048819431}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9356895162,
+ u'probeCountTime-3_150': 0.0175457176,
+ u'probeCountTime-4_150': 0.0467647662}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9359489847,
+ u'probeCountTime-4_100': 0.0159805264,
+ u'probeCountTime-4_150': 0.048070489}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9383891124,
+ u'probeCountTime-2_100': 0.0209504885,
+ u'probeCountTime-4_200': 0.0406603991}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9463296029,
+ u'probeCountTime-2_50': 0.0102743386,
+ u'probeCountTime-4_200': 0.0433960585}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9471562307,
+ u'probeCountTime-3_150': 0.0174749209,
+ u'probeCountTime-4_200': 0.0353688484}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9540799973,
+ u'probeCountTime-3_250': 0.0105199712,
+ u'probeCountTime-4_200': 0.0354000315}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9464337011,
+ u'probeCountTime-3_50': 0.0111662006,
+ u'probeCountTime-4_200': 0.0424000983}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9477334584,
+ u'probeCountTime-4_100': 0.0159142523,
+ u'probeCountTime-4_200': 0.0363522893}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9614331382,
+ u'probeCountTime-2_100': 0.0032228916,
+ u'probeCountTime-4_250': 0.0353439703}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9614129638,
+ u'probeCountTime-2_150': 0.0035139676,
+ u'probeCountTime-4_250': 0.0350730686}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9532930733,
+ u'probeCountTime-2_300': 0.0184378245,
+ u'probeCountTime-4_250': 0.0282691022}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9628145171,
+ u'probeCountTime-2_50': 0.0014954053,
+ u'probeCountTime-4_250': 0.0356900776}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9615883271,
+ u'probeCountTime-3_100': 0.0036106723,
+ u'probeCountTime-4_250': 0.0348010006}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9624302822,
+ u'probeCountTime-3_150': 0.0030208935,
+ u'probeCountTime-4_250': 0.0345488243}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9636286493,
+ u'probeCountTime-3_250': 0.0018172646,
+ u'probeCountTime-4_250': 0.0345540861}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.962773804,
+ u'probeCountTime-3_50': 0.0016577218,
+ u'probeCountTime-4_250': 0.0355684742}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9625995917,
+ u'probeCountTime-4_100': 0.0026892514,
+ u'probeCountTime-4_250': 0.0347111569}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9230576765,
+ u'probeCountTime-2_150': 0.0562091468,
+ u'probeCountTime-4_300': 0.0207331767}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9388496369,
+ u'probeCountTime-2_50': 0.0324921236,
+ u'probeCountTime-4_300': 0.0286582395}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9298337839,
+ u'probeCountTime-3_100': 0.0517375981,
+ u'probeCountTime-4_300': 0.018428618}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9438423315,
+ u'probeCountTime-3_150': 0.0394739923,
+ u'probeCountTime-4_300': 0.0166836762}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9594931568,
+ u'probeCountTime-3_250': 0.0237899035,
+ u'probeCountTime-4_300': 0.0167169397}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.939680502,
+ u'probeCountTime-3_50': 0.0336429201,
+ u'probeCountTime-4_300': 0.0266765779}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9449778312,
+ u'probeCountTime-4_100': 0.0372525938,
+ u'probeCountTime-4_300': 0.017769575}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'No-Op': 4.80234e-05,
+ u'probeCountTime-1_10': 0.9558454475,
+ u'probeCountTime-3_300': 0.0441065292}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.950364946,
+ u'probeCountTime-2_250': 0.0093673321,
+ u'probeCountTime-3_300': 0.0402677219}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9548847656,
+ u'probeCountTime-3_200': 0.0025765119,
+ u'probeCountTime-3_300': 0.0425387225}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9541965829,
+ u'probeCountTime-3_300': 0.0396902914,
+ u'probeCountTime-4_150': 0.0061131256}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8913298143,
+ u'probeCountTime-4_150': 0.0340609559,
+ u'probeCountTime-4_50': 0.0746092298}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9556855017,
+ u'probeCountTime-3_300': 0.0428915019,
+ u'probeCountTime-4_200': 0.0014229965}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9559043541,
+ u'probeCountTime-3_300': 0.0431669028,
+ u'probeCountTime-4_250': 0.0009287431}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9559780069,
+ u'probeCountTime-3_300': 0.0433708608,
+ u'probeCountTime-4_300': 0.0006511322}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.457398701,
+ u'probeCountTime-3_300': 0.0235756075,
+ u'probeCountTime-4_10': 0.5190256915}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.6746050934,
+ u'probeCountTime-3_200': 0.0513727408,
+ u'probeCountTime-4_10': 0.2740221658}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.6803148964,
+ u'probeCountTime-4_10': 0.2727853507,
+ u'probeCountTime-4_150': 0.0468997529}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.5854013895,
+ u'probeCountTime-4_10': 0.3827125302,
+ u'probeCountTime-4_200': 0.0318860803}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.5133465015,
+ u'probeCountTime-4_10': 0.4629544208,
+ u'probeCountTime-4_250': 0.0236990777}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.4586818731,
+ u'probeCountTime-4_10': 0.5224450523,
+ u'probeCountTime-4_300': 0.0188730746}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8519073897,
+ u'probeCountTime-2_200': 0.1085230123,
+ u'probeCountTime-3_50': 0.039569598}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8630285404,
+ u'probeCountTime-2_200': 0.1058419691,
+ u'probeCountTime-4_50': 0.0311294905}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8095153803,
+ u'probeCountTime-2_100': 0.0311754621,
+ u'probeCountTime-3_50': 0.1593091576}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.7937731563,
+ u'probeCountTime-2_200': 0.1205068607,
+ u'probeCountTime-4_10': 0.085719983}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.884734767,
+ u'probeCountTime-2_200': 0.1056055256,
+ u'probeCountTime-3_250': 0.0096597074}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8811782066,
+ u'probeCountTime-2_200': 0.1131704198,
+ u'probeCountTime-3_300': 0.0056513736}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8826745849,
+ u'probeCountTime-2_200': 0.1072915006,
+ u'probeCountTime-4_150': 0.0100339145}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.8782848173,
+ u'probeCountTime-2_200': 0.1191457608,
+ u'probeCountTime-4_300': 0.0025694219}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9214358086,
+ u'probeCountTime-2_300': 0.0661179215,
+ u'probeCountTime-3_250': 0.0124462699}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9171135308,
+ u'probeCountTime-2_300': 0.0749822572,
+ u'probeCountTime-4_150': 0.007904212}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.9188639912,
+ u'probeCountTime-2_300': 0.0752530043,
+ u'probeCountTime-4_200': 0.0058830045}
+
+
+u'ATT'
+{u'No-Op': 1.0}
+u'DEF'
+{u'probeCountTime-1_10': 0.779475212,
+ u'probeCountTime-2_250': 0.0929798444,
+ u'probeCountTime-4_10': 0.1275449436}
+
+

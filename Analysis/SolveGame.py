@@ -87,10 +87,10 @@ def solveGame(data, outname):
 		g[item[0],item[1]][0] = Decimal(data.payoff[item[0]][item[1]][0])
 		g[item[0],item[1]][1] = Decimal(data.payoff[item[0]][item[1]][1])
 
-	for profile in g.contingencies:
-		print g.players[0].strategies[profile[0]].label, \
-			g.players[1].strategies[profile[1]].label, \
-			g[profile][0], g[profile][1]
+	# for profile in g.contingencies:
+	# 	print g.players[0].strategies[profile[0]].label, \
+	# 		g.players[1].strategies[profile[1]].label, \
+	# 		g[profile][0], g[profile][1]
 
 	with open("subGames/Eq-" + outname + ".json", 'w') as rF:
 		# rF.write("Mapping of player strategies\n")

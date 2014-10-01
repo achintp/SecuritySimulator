@@ -29,6 +29,33 @@ class AttackerStrategies(AgentStrategies):
 	def __init__(self, params):
 		super(AttackerStrategies, self).__init__(params)
 
+	def purePeriodic(self, info, period):
+		timePeriod = float(period)
+		nextAttack = -1
+
+		attackOrder = sorted(info['resourceInfo'].items(), key = lambda x: x[1]['Probes till now'])
+
+		namesList = []
+		for k,v in info['resourceInfo'].iteritems():
+			namesList.append(k)
+
+		random.seed()
+		index = random.randint(0, len(namesList)-1)
+		nextAction = (nextAttack, attackOrder[index])
+		return nextAction
+
+	def purePeriodicMax(self, info, period):
+		nextMove = self.periodicMax(info, period)
+		temp = list(nextMove)
+		temp[0] = -1
+		return tuple(temp)
+
+	def purePeriodicDecept(self, info, params):
+		nextMove = self.periodicDecept(info, params)
+		temp = list(nextMove)
+		temp[0] = -1
+		return tuple(temp)
+
 	def periodic(self, info, period):
 		timePeriod = float(period)
 		nextAttack = info['currentTime'] + timePeriod
@@ -41,8 +68,6 @@ class AttackerStrategies(AgentStrategies):
 
 		random.seed()
 		index = random.randint(0, len(namesList)-1)
-		#print "Random server is " + namesList[index]
-		#Delete the entries where the attacker already has ciontrol 
 		nextAction = (nextAttack, attackOrder[index])
 		return nextAction
 
@@ -64,6 +89,9 @@ class AttackerStrategies(AgentStrategies):
 		period = (params.split('_'))[0]
 		return self.periodic(info, period)
 
+	def No(self):
+		#The NoOp is taken care of in the Simulator. This does nothing
+		return "1voen542nanpa"
 
 class DefenderStrategies(AgentStrategies):
 	"""
@@ -71,6 +99,12 @@ class DefenderStrategies(AgentStrategies):
 	"""
 	def __init__(self, params):
 		super(DefenderStrategies, self).__init__(params)
+
+	def purePeriodic(self, info, period):
+		return self.periodic(info, period)
+
+	def purePeriodicRand(self, info, period):
+		return self.periodicRand(info, period)
 
 	def periodic(self, info, period):
 		"""
@@ -149,3 +183,7 @@ class DefenderStrategies(AgentStrategies):
 					nextAction = (nextTime, maxServer)
 					return nextAction
 			return -1
+
+	def No(self):
+		#The NoOp is taken care of in the Simulator. This does nothing
+		return "1voen542nanpa-83pjf9a"

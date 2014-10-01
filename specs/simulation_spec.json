@@ -1,16 +1,16 @@
 {
 	"assignment": {
 		"ATT": [
-			"periodicDecept-20_5"
+			"No-Op"
 		],
 
 		"DEF": [
-			"periodicRand-3"
+			"No-Op"
 		]
 	},
 
 	"configuration":{
-		"endTime": "10000",
+		"endTime": "1000",
 		"dtCost": "0.3",
 		"prCost": "0.2",
 		"DEF": "0,0.1,0.7,1.0",

@@ -48,9 +48,10 @@ def makeData(fname):
 if __name__=='__main__':
 	start_time = time.time()
 	r = makeData(sys.argv[1])
+	# pprint.pprint(r['strategies'])
 	g = Game.Game(r['roles'], r['players'], r['strategies'], r['profileData'], 0)
-	g.reduceGame()
+	# g.reduceGame()
 	# pprint.pprint(g.findCliques())
-	g.solveGames()
-	# g.solveSubGames(4)
+	# g.solveGames()
+	g.solveSubGames(3)
 	print time.time() - start_time, "seconds"

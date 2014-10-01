@@ -1,6 +1,4 @@
-
-ATT': [
-		  'periodic-0.1',
+ATT': [   'periodic-0.1',
           'periodic-0.5',
           'periodic-0.7',
           'periodic-11',
@@ -43,7 +41,7 @@ ATT': [
           'periodicMax-4',
           'periodicMax-7'],
  DEF: [
- 		  'periodic-15',
+ 		'periodic-15',
           'periodic-23',
           'periodic-3',
           'periodicRand-3',
