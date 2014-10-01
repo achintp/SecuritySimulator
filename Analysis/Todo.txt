@@ -1,7 +1,0 @@
----------------------------------------------------------------------------
-1. Write to file for order of elimination and translate inside Game
-2. Write out dominated strategies and reduced game (?)
-3. Write out all exisitng cliques
-4. Profile the clique finding
-5. Make the clique finding faster
-6. 

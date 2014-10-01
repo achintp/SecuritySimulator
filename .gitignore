@@ -13,6 +13,7 @@ Analysis/Input_files
 Analysis/Results
 Analysis/*.txt
 Analysis/*.json
+Analysis/temp_files
 
 # Debug Result files
 *.dout
