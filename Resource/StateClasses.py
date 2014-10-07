@@ -2,10 +2,6 @@ import random
 import copy
 from math import exp
 
-def enum(**enums):
-    """Defines enum types. Use by Obj=enum(dict)"""
-    return type('Enum', (), enums)
-
 class State(object):
     """Includes all the state information required for the agents to make decisions"""
  
@@ -16,6 +12,11 @@ class State(object):
         """
         self.debug = 0
 
+        #activeresources-dict from name to resource object
+        #inactiveresource-dict from name to resource object
+        #stateHistory-
+        #resourcereportlist-dict from name to dict of report
+
         self.currentTime = 0
         self.activeResources = {}
         self.inactiveResources = {}
@@ -23,16 +24,8 @@ class State(object):
         self.resourceReportsList = {}
 
         #Declare and pass the enumeration objects for the players and the server states
-        # healthEnum = enum({COMPR=-1, PROBED=0, HEALTHY=1})
-        # playerEnum = enum({DEF=0, ATT=1})
         self.rArgs = {'healthState':{}, 'players':{}}
         self.rArgs['alpha'] = kwargs['alpha']
-        #Initialize the resources according to the resource list that has been given
-        # for name in kwargs['ResourceList']:
-        #     self.rArgs['name'] = name
-        #     res = Resource(self.rArgs)
-        #     res.report()
-        #     self.activeResources[name] = res
         self.addResource(kwargs['ResourceList'])
         self.resourceReports()
 
@@ -52,6 +45,10 @@ class State(object):
             pass
 
     def resourceReports(self):
+        """
+        Stores the resource report of current state in
+        the resourcereportlist
+        """
         self.resourceReportsList = {}
         for k,v in self.activeResources.iteritems():
             self.resourceReportsList[k] = v.report()
@@ -67,8 +64,12 @@ class State(object):
 
 
     def getResource(self, *args):
+        """
+        Returns a hash of resource name to object
+        """
         result = {}
 
+        #Checks in active and then inactive resources
         for name in args:
             if self.debug:
                 print "getResource name of resource-------------"
@@ -85,6 +86,11 @@ class State(object):
         return result
 
     def recordHistory(self):
+        """
+        Updates the statehistory with a state snapshot.
+        State snapshot includes the current time and 
+        resource reports of all resources.
+        """
         state = {}
         t = {}
         for name, value in self.activeResources.iteritems():
@@ -112,15 +118,13 @@ class State(object):
 
 class Resource(object):
     """
-        Keeps a track of the server resources being monitored. Initialize by giving enum 
-        object of player types and health states in dict
-        Initialization: Resource({healthStates:healthEnum, players:playerEnum})
+        Keeps a track of the server resources being monitored.
     """
     
     def __init__(self, kwargs):
         self.name = kwargs['name']
-        self.stateEnum = kwargs['healthState']
-        self.playerEnum = kwargs['players']
+        self.stateEnum = kwargs['healthState'] #Not used
+        self.playerEnum = kwargs['players']  #Not used
         self.probesTillNow = 0
         self.totalProbesTillNow = 0
         self.probCompromise = 0
@@ -161,23 +165,8 @@ class Resource(object):
         else:
             self.Status = "DOWN"
 
-    # def probe(self):
-    #     self.probesTillNow += 1
-    #     self.incrementProb()
-
-    # def attack(self):
-    #     if(isCompromised()):
-    #         self.changeStatus(self.stateEnum.COMPR)
-    #         self.controlledBy = self.playerEnum.ATT
-    #     else:
-    #         self.changeStatus(self.stateEnum.PROBED)
-
     def incrementProb(self):
         """Increment probability of compromise depending on curve used"""
-        #Placholder linear increasing method
-        # self.probCompromise += 0.1      
-        # if(self.probCompromise>=1):
-        #     self.probCompromise = 1
         if(self.probesTillNow < 0):
             self.probCompromise = 0
         else:
@@ -185,17 +174,9 @@ class Resource(object):
 
     def isCompromised(self):
         #Currently uses a simple random uniform sampling.
-        #print "Checking compromise!"
         random.seed()
         rand = random.random()
         if rand<self.probCompromise:
             return 1
         else:
-            return 0
-
-    # def reImage(self):
-    #     self.probCompromise = 0
-    #     self.reimageCount += 1
-    #     self.changeStatus(1)
-
-    
+            return 0    

@@ -51,12 +51,16 @@ class SimulateCyberScenario(object):
 		for k,v in args['defenderList'].iteritems():
 			self.defStrategy = v
 			if token in v:
+				#Convention is important. The simtype 
+				#specifies agent behavior wrt queue
 				self.simType = 1
 
 		self.attStrategy = None
 		for k,v in args['attackerList'].iteritems():
 			self.attStrategy = v
 
+		#Switch ensures whether an agent is queried for an
+		#action by the simulator
 		if self.defStrategy == 'No-Op':
 			self.defSwitch = False
 		if self.attStrategy == 'No-Op':
@@ -71,6 +75,7 @@ class SimulateCyberScenario(object):
 		self.utilParams['downTime'] = args['downTime']
 
 		#Initialize the event queue
+		#-1 is a sentinel indicating the end of the horizon
 		f = (self.params['endTime'], 0, -1)
 		self.eventQueue = [f]
 		#Initialize the state variable
@@ -107,13 +112,13 @@ class SimulateCyberScenario(object):
 			}
 			self.defenderList.append(AgentClasses.Defender(**d))
 
-			#print "Simulator set up. The resources are "
-			#for name in args['ResourceList']:
-			#	print name
-			#print "\nThe players are " + self.attackerList[0].name + " and " +\
-			#self.defenderList[0].name
-
 		if(self.debug):
+			print "Simulator set up. The resources are "
+			for name in args['ResourceList']:
+				print name
+			print "\nThe players are " + \
+			self.attackerList[0].name + " and " +\
+			self.defenderList[0].name
 			print self.attackerList
 			print self.defenderList
 
@@ -401,8 +406,8 @@ class SimulateCyberScenario(object):
 
 		self.params['resourceReports'] = self.state.resourceReportsList
 		info['time'] = self.params['currentTime']
-		self.attackerList[0].updateInformation(info)
-		self.defenderList[0].updateInformation(info)
+		# self.attackerList[0].updateInformation(info)
+		# self.defenderList[0].updateInformation(info)
 		#self.printEvents()
 
 	def flushEventQueue(self, name):
@@ -432,6 +437,14 @@ class SimulateCyberScenario(object):
 		temp = self.eventQueue.pop(rep)
 		self.eventQueue.insert(0, temp)
 
+	def falseProbe(self):
+		#Tells whether a false probe is detected by defender
+		#TODO Fill at future date
+		return 0
+
+	def missProbe(self):
+		#TODO Fill at future date
+		return 0
 
 	def printEvents(self):
 		print "\n-----------------------------------------------------------"

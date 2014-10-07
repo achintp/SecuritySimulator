@@ -61,15 +61,6 @@ class Agent(object):
 	def setParams(self, **params):
 		"""Have to implement. I think I'm going to need to convert the parma list to a dictionary structure"""
 
-	# def decideTimeOfAttack(self):
-	# 	"""
-	# 		Decides the time at which the next attack should take place. Fix incrementaally
-	# 		Assuming that the event horizon is not a parameter know to the agents.
-	# 	"""
-	# 	#Implementing a simple periodic attack period at the moment 
-	# 	timePeriod = 2
-	# 	return self.currentTime + timePeriod
-
 	def decideAction(self):
 		"""
 			Decides the next action to be taken. Should be run after the state variables are 
